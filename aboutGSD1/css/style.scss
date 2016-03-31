@@ -68,8 +68,13 @@ $Ffont-color: #fff;
             display: inline-block;
             padding: 10px;
             margin: 0px;
+            width: 100%;
             li{
                 display: inline-block;
+                border-right: 1px solid #ddd;
+                &:last-child{
+                    border-right: 0px;
+                }
                 a{
                     text-decoration: none;
                     &:hover{
@@ -98,7 +103,11 @@ $Ffont-color: #fff;
             width: 100%;
         }
     }
+    .ad1{
+        border: 1px solid red;
+    }
 }
+
 .about{
 
 }
@@ -108,15 +117,22 @@ $Ffont-color: #fff;
 .contact{
     width: 100%;
     text-align: center;
-    background-color: #efe;
+    background-color: green;
     padding: 10px;
     h2{
+        text-decoration: underline;
         font-size: 18px;
         font-weight: bold;
     }
-    
+    p{
+        margin: 10px
+    }
     .email{
-
+        color:#eee;
+        &:hover{
+            color: #ddd;
+            text-decoration: underline;
+        }
     }
     hr{
         margin-bottom: 10px;

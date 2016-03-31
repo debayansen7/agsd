@@ -15,17 +15,22 @@ background-size: cover;*/ }
 @media only screen and (min-width: 480px) { .header1 .banner img { width: 50%; } }
 .footer1 { width: 100%; color: #fff; }
 .footer1 .footerLinks { background-color: #eee; width: 100%; color: #fff; height: auto; text-align: center; }
-.footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; }
-.footer1 .footerLinks ul li { display: inline-block; }
+.footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; width: 100%; }
+.footer1 .footerLinks ul li { display: inline-block; border-right: 1px solid #ddd; }
+.footer1 .footerLinks ul li:last-child { border-right: 0px; }
 .footer1 .footerLinks ul li a { text-decoration: none; }
 .footer1 .footerLinks ul li a:hover { text-decoration: underline; }
 .footer1 .copyRight { background-color: #101010; height: auto; padding: 5px; text-align: center; width: 100%; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #fff; }
 
 .home { width: 100%; }
 .home .topBanner img { width: 100%; }
+.home .ad1 { border: 1px solid red; }
 
-.contact { width: 100%; text-align: center; background-color: #efe; padding: 10px; }
-.contact h2 { font-size: 18px; font-weight: bold; }
+.contact { width: 100%; text-align: center; background-color: green; padding: 10px; }
+.contact h2 { text-decoration: underline; font-size: 18px; font-weight: bold; }
+.contact p { margin: 10px; }
+.contact .email { color: #eee; }
+.contact .email:hover { color: #ddd; text-decoration: underline; }
 .contact hr { margin-bottom: 10px; }
 .contact .connections { list-style: none; display: inline-block; padding: 5px; margin: 0px; }
 .contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
