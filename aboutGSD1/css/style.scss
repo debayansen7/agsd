@@ -1,0 +1,87 @@
+$Hfont-family: Verdana, Geneva, sans-serif;
+$Hfont-size: 14px;
+$Hfont-color: #fff;
+
+$Bfont-family: Verdana, Geneva, sans-serif;
+$Bfont-size: 12px;
+$Bfont-color: #000;
+
+$Ffont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$Ffont-size: 14px;
+$Ffont-color: #fff;
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: $Bfont-family;
+    font-size: $Bfont-size;
+    color: $Bfont-color;
+}
+.site-wrapper{
+    /*background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+//=====================================Header========================================
+.header1{
+    // border-bottom: 2px solid red;
+    box-shadow: 0px 26px 30px -20px #EA6166;
+    .banner{
+        display: block;
+        width: 100%;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+    .navbar{
+        margin-bottom: 1px;
+    }
+    .navbar-inverse .navbar-nav>.active>a{
+        font-size: $Hfont-size;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .header1 .banner img{
+        width: 50%;
+    }
+}
+
+///*=================================Footer===========================================*/
+.footer1{
+    width: 100%;
+    color: $Ffont-color;
+    .footerLinks{
+        background-color: #eee;
+        width: 100%;
+        color: $Ffont-color;
+        height: auto;
+        text-align: center;
+        ul{
+            display: inline-block;
+            padding: 10px;
+            margin: 0px;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    &hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .copyRight{
+        background-color: #101010;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        font-family: $Ffont-family;
+        color: $Ffont-color;
+
+    }
+}

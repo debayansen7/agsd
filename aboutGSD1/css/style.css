@@ -1,31 +1,22 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
-    color: ;
-}
-.site-wrapper{
-    /*background-image: url("../images/banner.jpg");*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.header1{
-    border-bottom: 2px solid red;
-}
-.header1 nav{
+* { padding: 0px; margin: 0px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #000; }
 
-}
+.site-wrapper { /*background-image: url("../images/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;*/ }
 
-.header1 .banner{
-    display: block;
-    width: 100%;
-}
-.header1 .banner img{
-    width: 100%;
-}
-/*@media screen and (min-width: 480px){
-    .header1 .banner img{
-        width: 50%;
-    }
-}*/
+.header1 { box-shadow: 0px 26px 30px -20px #EA6166; }
+.header1 .banner { display: block; width: 100%; text-align: center; }
+.header1 .banner img { width: 100%; }
+.header1 .navbar { margin-bottom: 1px; }
+.header1 .navbar-inverse .navbar-nav > .active > a { font-size: 14px; }
+
+@media only screen and (min-width: 480px) { .header1 .banner img { width: 50%; } }
+.footer1 { width: 100%; color: #fff; }
+.footer1 .footerLinks { background-color: #eee; width: 100%; color: #fff; height: auto; text-align: center; }
+.footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; }
+.footer1 .footerLinks ul li { display: inline-block; }
+.footer1 .footerLinks ul li a { text-decoration: none; }
+.footer1 .footerLinks ul li ahover { text-decoration: underline; }
+.footer1 .copyRight { background-color: #101010; height: auto; padding: 5px; text-align: center; width: 100%; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
