@@ -1,10 +1,12 @@
 * { padding: 0px; margin: 0px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #000; }
 
+.container-fluid { padding: 0px; margin: 0px; }
+
 .site-wrapper { /*background-image: url("../images/banner.jpg");
 background-repeat: no-repeat;
 background-size: cover;*/ }
 
-.header1 { box-shadow: 0px 26px 30px -20px #EA6166; }
+.header1 { box-shadow: 0px 26px 30px -20px #dddddd; margin-bottom: 10px; }
 .header1 .banner { display: block; width: 100%; text-align: center; }
 .header1 .banner img { width: 100%; }
 .header1 .navbar { margin-bottom: 1px; }
@@ -16,7 +18,18 @@ background-size: cover;*/ }
 .footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; }
 .footer1 .footerLinks ul li { display: inline-block; }
 .footer1 .footerLinks ul li a { text-decoration: none; }
-.footer1 .footerLinks ul li ahover { text-decoration: underline; }
+.footer1 .footerLinks ul li a:hover { text-decoration: underline; }
 .footer1 .copyRight { background-color: #101010; height: auto; padding: 5px; text-align: center; width: 100%; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #fff; }
+
+.home { width: 100%; }
+.home .topBanner img { width: 100%; }
+
+.contact { width: 100%; text-align: center; background-color: #efe; padding: 10px; }
+.contact h2 { font-size: 18px; font-weight: bold; }
+.contact hr { margin-bottom: 10px; }
+.contact .connections { list-style: none; display: inline-block; padding: 5px; margin: 0px; }
+.contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
+.contact .connections li a .fa { border: 2px solid #000; padding: 10px; border-radius: 50%; width: 40px; color: #000; border: 2px solid #000; font-size: 15px; }
+.contact .connections li a .fa:hover { border: 2px solid red; color: red; }
 
 /*# sourceMappingURL=style.css.map */
