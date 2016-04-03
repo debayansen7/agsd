@@ -36,18 +36,18 @@ a { cursor: pointer; }
 
 @media only screen and (max-width: 340px) and (min-width: 650px) { .home .topBanner .owl-carousel .owl-item h4 { position: absolute; color: #fff; top: 15%; padding: 5px; font-size: 22px; vertical-align: top; } }
 .about { display: block; padding: 10px 15px; }
-.about h1 { font-size: 24px; font-weight: bold; text-decoration: underline; }
+.about h1 { font-size: 24px; font-weight: bold; text-decoration: underline; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 .about h2 { font-size: 22px; }
 .about p { font-size: 16px; }
 .about .ads-train { width: 100%; margin: auto; display: inline-block; text-align: center; }
 .about .ads-train img { width: 80%; height: 180px; }
 
-.categories h1 { text-align: center; text-decoration: underline; font-size: 24px; }
+.categories h1 { text-align: center; text-decoration: underline; font-size: 24px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 .categories .cate-ul { text-align: left; list-style: none; padding-left: 5%; }
 .categories .cate-ul li { padding: 10px; }
 .categories .cate-ul li a { font-size: 20px; }
 
-.articles h1 { text-align: center; font-size: 24px; text-decoration: underline; }
+.articles h1 { text-align: center; font-size: 24px; text-decoration: underline; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 .articles ul { display: block; list-style: none; }
 .articles ul li h3 { font-size: 20px; }
 .articles ul li .summary { font-size: 18px; }
@@ -57,7 +57,7 @@ a { cursor: pointer; }
 .articles hr { color: #000; border: 3px dashed; }
 
 .review { width: 100%; text-align: center; }
-.review h1 { font-size: 24px; }
+.review h1 { font-size: 24px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 .review .owl-carousel1 { text-decoration: underline; text-align: center; }
 .review .owl-carousel1 .item { display: inline-block; padding: 25px; border: 1px solid #626262; border-radius: 20px; margin-bottom: 5px; background-color: #fff; margin: 2%; }
 .review .owl-carousel1 .item p { width: auto; font-size: 16px; }
@@ -65,7 +65,7 @@ a { cursor: pointer; }
 .review .owl-carousel1 .item span { font-size: 18px; text-align: right; color: red; }
 
 .contact { text-align: center; background-color: burlywood; padding: 5px; margin-bottom: 10px; }
-.contact h1 { text-decoration: underline; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; text-align: center; font-size: 24px; }
+.contact h1 { text-decoration: underline; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; text-align: center; font-size: 24px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 .contact p { font-size: 16px; margin: 10px; }
 .contact .email { font-size: 16px; color: #ddd; }
 .contact .email:hover { color: #eee; text-decoration: underline; }

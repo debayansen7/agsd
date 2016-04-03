@@ -171,6 +171,7 @@ a{
         font-size: $h1-fontSize;
         font-weight:bold;
         text-decoration: underline;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
     h2{
         font-size: $h2-fontSize;
@@ -195,6 +196,7 @@ a{
         text-align: center;
         text-decoration: underline;
         font-size: $h1-fontSize;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
     .cate-ul{
         text-align: left;
@@ -219,6 +221,7 @@ a{
         text-align: center;
         font-size: $h1-fontSize;
         text-decoration: underline;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
     ul{
         display: block;
@@ -254,6 +257,7 @@ $reviewFont-size: 18px;
 .review{
     h1{
         font-size: $h1-fontSize;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
     width: 100%;
     // border-top:3px double #000;
@@ -300,6 +304,7 @@ $reviewFont-size: 18px;
         font-weight: bold;
         text-align: center;
         font-size: $h1-fontSize;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
     p{
         font-size: $p-fontSize;
