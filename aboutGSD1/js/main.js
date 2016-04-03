@@ -18,3 +18,6 @@ $('.owl-carousel1').owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:false
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+})

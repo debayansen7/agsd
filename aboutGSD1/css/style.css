@@ -61,6 +61,7 @@ a { cursor: pointer; }
 .review .owl-carousel1 { text-decoration: underline; text-align: center; }
 .review .owl-carousel1 .item { display: inline-block; padding: 25px; border: 1px solid #626262; border-radius: 20px; margin-bottom: 5px; background-color: #fff; margin: 2%; }
 .review .owl-carousel1 .item p { width: auto; font-size: 16px; }
+.review .owl-carousel1 .item p .fa-star { color: #FFD700; }
 .review .owl-carousel1 .item span { font-size: 18px; text-align: right; color: red; }
 
 .contact { text-align: center; background-color: burlywood; padding: 5px; margin-bottom: 10px; }
@@ -73,5 +74,17 @@ a { cursor: pointer; }
 .contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
 .contact .connections li a .fa { border: 2px solid #626262; padding: 10px; border-radius: 50%; width: 50px; color: #626262; font-size: 25px; margin: 0px 10px; }
 .contact .connections li a .fa:hover { border: 2px solid #fff; color: #fff; }
+.contact .connections li a .fb:hover { background-color: #3b5998; }
+.contact .connections li a .gp:hover { background-color: #d34836; }
+.contact .connections li a .tw:hover { background-color: #2cb2e4; }
+.contact .connections li a .pt:hover { background-color: #C92228; }
+.contact .connections li a .yt:hover { background-color: #e52d27; }
+
+.likebox_area { width: 100%; display: block; margin: 10px 0px; }
+.likebox_area .like-box { margin: 5px auto; text-align: center; }
+.likebox_area .like-box .btn .fa { font-weight: bold; color: #fff; width: 20px; text-align: center; }
+.likebox_area .like-box .fb { background-color: #3b5998; color: #fff; }
+.likebox_area .like-box .tw { background-color: #2cb2e4; color: #fff; }
+.likebox_area .like-box .gp { background-color: #d34836; color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
