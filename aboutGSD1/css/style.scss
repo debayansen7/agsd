@@ -1,15 +1,16 @@
 $Hfont-family: Verdana, Geneva, sans-serif;
-$Hfont-size: 14px;
+$Hfont-size: 18px;
+$Hafont-size: 20px;
 $Hfont-color: #fff;
 
-$Bfont-family: Verdana, Geneva, sans-serif;
+$Bfont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $Bfont-size: 12px;
-$Bfont-color: #000;
+$Bfont-color: #626262;
 
 $Ffont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $Ffont-size: 14px;
-$Ffont-color: #fff;
-
+$Ffont-color: #626262;
+$copyRightColor: #ffffff;
 
 *{
     padding: 0px;
@@ -18,16 +19,23 @@ $Ffont-color: #fff;
     font-size: $Bfont-size;
     color: $Bfont-color;
 }
+a{
+    cursor: pointer;
+}
 .container-fluid{
     padding: 0px;
     margin: 0px;
 }
 .site-wrapper{
-    /*background-image: url("../images/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
-
+.row{
+    margin: auto;
+}
+.well{
+    margin:10px 1%;
+    width: 98%;
+    border: 1px solid #626262;
+}
 //=====================================Header========================================
 .header1{
     // border-bottom: 2px solid red;
@@ -43,9 +51,16 @@ $Ffont-color: #fff;
     }
     .navbar{
         margin-bottom: 1px;
+        border-radius: 0px;
+        .navbar-nav{
+            text-align: center;
+            li a{
+                font-size:$Hfont-size;
+            }
+        }
     }
     .navbar-inverse .navbar-nav>.active>a{
-        font-size: $Hfont-size;
+        font-size:$Hafont-size;
     }
 }
 @media only screen and (min-width: 480px) {
@@ -53,17 +68,18 @@ $Ffont-color: #fff;
         width: 50%;
     }
 }
-
 ///*=================================Footer===========================================*/
 .footer1{
     width: 100%;
     color: $Ffont-color;
     .footerLinks{
-        background-color: #eee;
+        background-color: #000;
+        border: 1px 0px solid #eee;
         width: 100%;
         color: $Ffont-color;
         height: auto;
         text-align: center;
+        margin: 0px;
         ul{
             display: inline-block;
             padding: 10px;
@@ -71,12 +87,15 @@ $Ffont-color: #fff;
             width: 100%;
             li{
                 display: inline-block;
-                border-right: 1px solid #ddd;
-                &:last-child{
-                    border-right: 0px;
+                padding: 5px;
+                &:nth-child(odd){
+                    // border-right: 0px;
+                    border-right: 1px solid #ddd;
                 }
                 a{
                     text-decoration: none;
+                    font-weight: bold;
+                    font-size: 16px;
                     &:hover{
                         text-decoration: underline;
                     }
@@ -91,43 +110,191 @@ $Ffont-color: #fff;
         text-align: center;
         width: 100%;
         font-family: $Ffont-family;
-        color: $Ffont-color;
+        color: $copyRightColor;
 
     }
 }
-///*----------------------------Sections --------------------------------*/
+///*---------------------------- Ads --------------------------------*/
+.ads{
+    // border: 1px solid red;
+    padding:10px;
+    img{
+        width: 100%;
+        // margin: 5px;
+    }
+}
+///*---------------------------- Home --------------------------------*/
 .home{
+    display: block;
     width: 100%;
     .topBanner{
+        color: #fff;
+        margin:0px 0px 10px 0px;
+        padding: 0px;
+        text-align-last: left;
         img{
             width: 100%;
         }
-    }
-    .ad1{
-        border: 1px solid red;
+        .owl-carousel .owl-item h4{
+            position: absolute;
+            color: #fff;
+            top: 35%;
+            padding: 5px;
+            font-size: 30px;
+        }
     }
 }
-
+@media only screen and (max-width: 340px) and (min-width: 650px) {
+    .home .topBanner .owl-carousel .owl-item h4{
+        position: absolute;
+        color: #fff;
+        top: 15%;
+        padding: 5px;
+        font-size: 22px;
+        vertical-align: top;
+    }
+}
+///*---------------------------- About --------------------------------*/
 .about{
-
-}
-.review{
-
-}
-.contact{
-    width: 100%;
-    text-align: center;
-    background-color: green;
-    padding: 10px;
-    h2{
+    display: block;
+    padding: 10px 15px;
+    h1{
+        font-size: 24px;
+        font-weight:bold;
         text-decoration: underline;
-        font-size: 18px;
-        font-weight: bold;
+    }
+    h2{
+        font-size: 20px;
     }
     p{
-        margin: 10px
+        font-size: 16px;
+    }
+    .ads-train{
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+        img{
+            width: 80%;
+            height: 180px;
+        }
+    }
+}
+///*---------------------------- Categories --------------------------------*/
+.categories{
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 24px;
+    }
+    .cate-ul{
+        text-align: left;
+        list-style: none;
+        padding-left: 5%;
+        li{
+            padding: 10px;
+            a{
+                font-size: 20px;
+                &:hover{
+
+                }
+            }
+        }
+    }
+
+
+}
+///*---------------------------- Articles --------------------------------*/
+.articles{
+    h1{
+        text-align: center;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    ul{
+        display: block;
+        list-style: none;
+        li{
+            h3{
+                font-size: 20px;
+            }
+            .summary{
+                font-size: 18px;
+            }
+            .readMore{
+                color:green;
+                text-decoration: none;
+                font-size: 18px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    img{
+        width: 100%;
+    }
+    hr{
+        color: #000;
+        border: 3px dashed;
+    }
+
+}
+///*---------------------------- Reviews --------------------------------*/
+$reviewFont-size: 18px;
+.review{
+    h1{
+        font-size: 24px;
+    }
+    width: 100%;
+    // border-top:3px double #000;
+    // border-bottom:3px double #000;
+    text-align: center;
+    // background-color: #80aaff;
+    // color: #fff;
+    .owl-carousel1{
+        text-decoration: underline;
+        text-align: center;
+        .item{
+            display: inline-block;
+            padding: 25px;
+            border: 1px solid #626262;
+            border-radius: 20px;
+            margin-bottom: 5px;
+            background-color:#fff;
+            margin:2%;
+            p{
+                width: auto;
+                font-size: $reviewFont-size;
+            }
+            span{
+                font-size: $reviewFont-size;
+                text-align: right;
+                color:red;
+            }
+        }
+    }
+}
+///*---------------------------- Contact --------------------------------*/
+.contact{
+    // width: 100%;/
+    text-align: center;
+    background-color: burlywood;
+    padding: 5px;
+    margin-bottom: 10px;
+    h1{
+        text-decoration: underline;
+        font-family: $Ffont-family;
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+    }
+    p{
+        font-size: 17px;
+        margin: 10px;
     }
     .email{
+        font-size: 16px;
         color:#eee;
         &:hover{
             color: #ddd;
@@ -147,18 +314,17 @@ $Ffont-color: #fff;
             text-align: center;
             margin: 0px 1px;
             a .fa{
-                border: 2px solid #000;
+                border: 2px solid #626262;
                 padding: 10px;
                 border-radius: 50%;
-                width: 40px;
-                color: #000;
-                border: 2px solid #000;
-                font-size: 15px;
+                width: 50px;
+                color: #626262;
+                font-size: 25px;
+                margin: 0px 10px;
                 &:hover{
-                    border: 2px solid red;
-                    color: red;
+                    border: 2px solid #fff;
+                    color: #fff;
                 }
-
             }
         }
     }
