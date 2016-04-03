@@ -1,7 +1,7 @@
-$Hfont-family: Verdana, Geneva, sans-serif;
-$Hfont-size: 18px;
-$Hafont-size: 20px;
-$Hfont-color: #fff;
+$Hfont-family: Verdana, Geneva, sans-serif; //Header Font Family
+$Hfont-size: 18px;  //Header Font size
+$Hafont-size: 20px; //Header link Font size
+$Hfont-color: #fff; //Header Font Color
 
 $Bfont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $Bfont-size: 12px;
@@ -11,6 +11,12 @@ $Ffont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $Ffont-size: 14px;
 $Ffont-color: #626262;
 $copyRightColor: #ffffff;
+
+$h1-fontSize: 24px;
+$h2-fontSize: 22px;
+$h3-fontSize: 20px;
+$p-fontSize: 16px;
+
 
 *{
     padding: 0px;
@@ -58,6 +64,9 @@ a{
                 font-size:$Hfont-size;
             }
         }
+        .navbar-form{
+            // display: inline-block;
+        }
     }
     .navbar-inverse .navbar-nav>.active>a{
         font-size:$Hafont-size;
@@ -95,7 +104,7 @@ a{
                 a{
                     text-decoration: none;
                     font-weight: bold;
-                    font-size: 16px;
+                    font-size: 15px;
                     &:hover{
                         text-decoration: underline;
                     }
@@ -159,15 +168,15 @@ a{
     display: block;
     padding: 10px 15px;
     h1{
-        font-size: 24px;
+        font-size: $h1-fontSize;
         font-weight:bold;
         text-decoration: underline;
     }
     h2{
-        font-size: 20px;
+        font-size: $h2-fontSize;
     }
     p{
-        font-size: 16px;
+        font-size: $p-fontSize;
     }
     .ads-train{
         width: 100%;
@@ -185,7 +194,7 @@ a{
     h1{
         text-align: center;
         text-decoration: underline;
-        font-size: 24px;
+        font-size: $h1-fontSize;
     }
     .cate-ul{
         text-align: left;
@@ -208,7 +217,7 @@ a{
 .articles{
     h1{
         text-align: center;
-        font-size: 24px;
+        font-size: $h1-fontSize;
         text-decoration: underline;
     }
     ul{
@@ -216,7 +225,7 @@ a{
         list-style: none;
         li{
             h3{
-                font-size: 20px;
+                font-size: $h3-fontSize;
             }
             .summary{
                 font-size: 18px;
@@ -244,7 +253,7 @@ a{
 $reviewFont-size: 18px;
 .review{
     h1{
-        font-size: 24px;
+        font-size: $h1-fontSize;
     }
     width: 100%;
     // border-top:3px double #000;
@@ -265,7 +274,7 @@ $reviewFont-size: 18px;
             margin:2%;
             p{
                 width: auto;
-                font-size: $reviewFont-size;
+                font-size: $p-fontSize;
             }
             span{
                 font-size: $reviewFont-size;
@@ -287,17 +296,17 @@ $reviewFont-size: 18px;
         font-family: $Ffont-family;
         font-weight: bold;
         text-align: center;
-        font-size: 24px;
+        font-size: $h1-fontSize;
     }
     p{
-        font-size: 17px;
+        font-size: $p-fontSize;
         margin: 10px;
     }
     .email{
         font-size: 16px;
-        color:#eee;
+        color: #ddd;
         &:hover{
-            color: #ddd;
+            color:#eee;
             text-decoration: underline;
         }
     }
@@ -329,3 +338,4 @@ $reviewFont-size: 18px;
         }
     }
 }
+///*---------------------------- Contact --------------------------------*/

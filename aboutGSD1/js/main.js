@@ -3,8 +3,8 @@ $('.owl-carousel').owlCarousel({
     lazyLoad:true,
     loop:true,
     margin:10,
-    // autoplay:true,
-    // autoplayTimeout:3000,
+    autoplay:true,
+    autoplayTimeout:3000,
     autoplayHoverPause:false
 });
 $('.owl-carousel1').owlCarousel({

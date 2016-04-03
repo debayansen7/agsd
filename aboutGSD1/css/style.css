@@ -22,7 +22,7 @@ a { cursor: pointer; }
 .footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; width: 100%; }
 .footer1 .footerLinks ul li { display: inline-block; padding: 5px; }
 .footer1 .footerLinks ul li:nth-child(odd) { border-right: 1px solid #ddd; }
-.footer1 .footerLinks ul li a { text-decoration: none; font-weight: bold; font-size: 16px; }
+.footer1 .footerLinks ul li a { text-decoration: none; font-weight: bold; font-size: 15px; }
 .footer1 .footerLinks ul li a:hover { text-decoration: underline; }
 .footer1 .copyRight { background-color: #101010; height: auto; padding: 5px; text-align: center; width: 100%; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #ffffff; }
 
@@ -37,7 +37,7 @@ a { cursor: pointer; }
 @media only screen and (max-width: 340px) and (min-width: 650px) { .home .topBanner .owl-carousel .owl-item h4 { position: absolute; color: #fff; top: 15%; padding: 5px; font-size: 22px; vertical-align: top; } }
 .about { display: block; padding: 10px 15px; }
 .about h1 { font-size: 24px; font-weight: bold; text-decoration: underline; }
-.about h2 { font-size: 20px; }
+.about h2 { font-size: 22px; }
 .about p { font-size: 16px; }
 .about .ads-train { width: 100%; margin: auto; display: inline-block; text-align: center; }
 .about .ads-train img { width: 80%; height: 180px; }
@@ -60,14 +60,14 @@ a { cursor: pointer; }
 .review h1 { font-size: 24px; }
 .review .owl-carousel1 { text-decoration: underline; text-align: center; }
 .review .owl-carousel1 .item { display: inline-block; padding: 25px; border: 1px solid #626262; border-radius: 20px; margin-bottom: 5px; background-color: #fff; margin: 2%; }
-.review .owl-carousel1 .item p { width: auto; font-size: 18px; }
+.review .owl-carousel1 .item p { width: auto; font-size: 16px; }
 .review .owl-carousel1 .item span { font-size: 18px; text-align: right; color: red; }
 
 .contact { text-align: center; background-color: burlywood; padding: 5px; margin-bottom: 10px; }
 .contact h1 { text-decoration: underline; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; text-align: center; font-size: 24px; }
-.contact p { font-size: 17px; margin: 10px; }
-.contact .email { font-size: 16px; color: #eee; }
-.contact .email:hover { color: #ddd; text-decoration: underline; }
+.contact p { font-size: 16px; margin: 10px; }
+.contact .email { font-size: 16px; color: #ddd; }
+.contact .email:hover { color: #eee; text-decoration: underline; }
 .contact hr { margin-bottom: 10px; }
 .contact .connections { list-style: none; display: inline-block; padding: 5px; margin: 0px; }
 .contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
