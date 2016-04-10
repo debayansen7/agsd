@@ -9,12 +9,13 @@ $Bfont-color: #626262;
 
 $Ffont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $Ffont-size: 14px;
-$Ffont-color: #626262;
+$Ffont-color: #4285F4;
 $copyRightColor: #ffffff;
 
 $h1-fontSize: 24px;
 $h2-fontSize: 22px;
 $h3-fontSize: 20px;
+$h4-fontSize: 18px;
 $p-fontSize: 16px;
 
 
@@ -52,13 +53,25 @@ a{
         width: 100%;
         text-align: center;
         img{
-            width: 80%;
+            width: 50%;
             margin: 10px;
         }
         .bannerText{
             color: #494444;
-            font-size: 20px;
+            font-size: large;
             font-family: "Times New Roman";
+        }
+        hr{
+            border:1px solid #4285F4;
+            display: none;
+            margin: 5px 0px;
+        }
+        .tagLine{
+            padding: 5px;
+            color: #4285F4;
+            font-size: 18px;
+            font-style: italic;
+            display: none;
         }
     }
     .navbar{
@@ -67,25 +80,40 @@ a{
         background-color: #595959;
         .navbar-nav{
             text-align: center;
+            width: 100%;
+            margin:0px;
             li a{
                 font-size:$Hfont-size;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                .fa-home{
+                    color: #fff;
+                }
             }
         }
         .navbar-form{
-            // display: inline-block;
+            display: inline-block;
+            background-color: #4285F4;
+            margin: 0px;
+            width: 100%;
+            // border: 1px solid #101010;
+            .form-group{
+                .form-control{
+                    width: 84%;
+                    display: inline-block;
+                    float: left;
+                    margin-right: 2px;
+                }
+                .search{
+                    // width: 20%;
+                    display: inline-block;
+                    float: right;
+                }
+            }
         }
     }
     .navbar-inverse .navbar-nav>.active>a{
         font-size:$Hafont-size;
-    }
-}
-@media only screen and (min-width: 480px) {
-    .header1 .banner img{
-        width: 25%;
-    }
-    .header1 .banner .bannerText{
-        font-size: 30px;
-        margin-bottom: 20px;
     }
 }
 ///*=================================Footer===========================================*/
@@ -93,7 +121,7 @@ a{
     width: 100%;
     color: $Ffont-color;
     .footerLinks{
-        background-color: #000;
+        background-color: #383636;
         border: 1px 0px solid #eee;
         width: 100%;
         color: $Ffont-color;
@@ -140,7 +168,7 @@ a{
     padding:10px;
     img{
         width: 100%;
-        // margin: 5px;
+        margin: 5px 0px;
     }
 }
 ///*---------------------------- Home --------------------------------*/
@@ -160,24 +188,15 @@ a{
             color: #fff;
             top: 35%;
             padding: 5px;
-            font-size: 30px;
+            font-size: 18px;
         }
-    }
-}
-@media only screen and (max-width: 340px) and (min-width: 650px) {
-    .home .topBanner .owl-carousel .owl-item h4{
-        position: absolute;
-        color: #fff;
-        top: 15%;
-        padding: 5px;
-        font-size: 22px;
-        vertical-align: top;
     }
 }
 ///*---------------------------- About --------------------------------*/
 .about{
-    display: none;
+    display: block;
     padding: 10px 15px;
+    font-family: $Bfont-family;
     h1{
         font-size: $h1-fontSize;
         font-weight:bold;
@@ -186,9 +205,29 @@ a{
     }
     h2{
         font-size: $h2-fontSize;
+        color:#4285F4;
+    }
+    h3{
+        font-size: $h3-fontSize;
+        font-style: italic;
+        font-weight: bold;
+    }
+    h4{
+        font-size: $h4-fontSize;
+        font-style: italic;
+        color:#4285F4;
     }
     p{
         font-size: $p-fontSize;
+    }
+    img{
+        width: 100%;
+    }
+    .FA{
+        margin: 10px 0px;
+    }
+    .MA{
+        margin: 10px 0px;
     }
     .ads-train{
         width: 100%;
@@ -203,7 +242,7 @@ a{
 }
 ///*---------------------------- Categories --------------------------------*/
 .categories{
-    display: none;
+    display:block;
     h1{
         text-align: center;
         text-decoration: underline;
@@ -229,31 +268,43 @@ a{
 }
 ///*---------------------------- Articles --------------------------------*/
 .articles{
-    display: none;
+    display:block;
     h1{
         text-align: center;
         font-size: $h1-fontSize;
         text-decoration: underline;
         text-shadow: 0 1px 3px rgba(0,0,0,.5);
+        color: #626262;
     }
     ul{
         display: block;
-        list-style: none;
+        // list-style: none;
         li{
             h3{
                 font-size: $h3-fontSize;
+                font-style: italic;
+                font-weight: bold;
             }
-            .summary{
-                font-size: 18px;
+            p{
+                font-size: 16px;
             }
-            .readMore{
-                color:green;
+            a{
+                font-size: 16px;
                 text-decoration: none;
-                font-size: 18px;
-                &:hover{
-                    text-decoration: underline;
-                }
+                color: #626262;
+
             }
+        }
+    }
+    .summary{
+        font-size: 18px;
+    }
+    .readMore{
+        color:green;
+        text-decoration: none;
+        font-size: 18px;
+        &:hover{
+            text-decoration: underline;
         }
     }
     img{
@@ -261,14 +312,15 @@ a{
     }
     hr{
         color: #000;
-        border: 3px dashed;
+        border: 1px solid #4285F4;
     }
 
 }
 ///*---------------------------- Reviews --------------------------------*/
 $reviewFont-size: 18px;
 .review{
-    display: none;
+    display:block;
+    // background-image: url('../images/cute_gsd.jpg');
     h1{
         font-size: $h1-fontSize;
         text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -283,13 +335,13 @@ $reviewFont-size: 18px;
         text-decoration: underline;
         text-align: center;
         .item{
+            width: 100%;
             display: inline-block;
             padding: 25px;
             border: 1px solid #626262;
             border-radius: 20px;
             margin-bottom: 5px;
             background-color:#fff;
-            margin:2%;
             p{
                 width: auto;
                 font-size: $p-fontSize;
@@ -305,11 +357,20 @@ $reviewFont-size: 18px;
         }
     }
 }
+///*---------------------------- Banner AD --------------------------------*/
+.bannerAd{
+    width: 100%;
+    text-align: center;
+    display: none;
+    img{
+        // width: 100%;
+    }
+}
 ///*---------------------------- Contact --------------------------------*/
 .contact{
-    display: none;
+    display:block;
     text-align: center;
-    background-color: burlywood;
+    // background-color: burlywood;
     padding: 5px;
     margin-bottom: 10px;
     h1{
@@ -322,18 +383,20 @@ $reviewFont-size: 18px;
     }
     p{
         font-size: $p-fontSize;
-        margin: 10px;
+        margin: 5px;
     }
     .email{
-        font-size: 16px;
-        color: #ddd;
+        font-size: 13px;
+        color: #626262;
+        text-decoration: underline;
         &:hover{
-            color:#eee;
-            text-decoration: underline;
+            color:#4285F4;
         }
     }
     hr{
+        border:1px solid #4285F4;
         margin-bottom: 10px;
+
     }
     .connections{
         list-style: none;
@@ -366,7 +429,8 @@ $reviewFont-size: 18px;
                 &:hover{
                     background-color: #d34836;
                 }
-            }a .tw{
+            }
+            a .tw{
                 &:hover{
                     background-color: #2cb2e4;
                 }
@@ -387,7 +451,7 @@ $reviewFont-size: 18px;
 ///*---------------------------- Like Area --------------------------------*/
 .likebox_area{
     width: 100%;
-    display: none;
+    display:block;
     margin: 10px 0px;
     .like-box{
         margin:5px auto;
@@ -414,5 +478,116 @@ $reviewFont-size: 18px;
 
         }
 
+    }
+}
+
+
+
+// /* ---------------------------Media Queries -----------------------------*/
+@media only screen and (min-width: 1024px) and (min-width: 1200px) {
+    .header1{
+        .banner{
+            text-align: center;
+            img{
+                width: 20%;
+            }
+            .bannerText{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            hr{
+                width: 80%;
+                display: block;
+                margin: 0px auto;
+            }
+            .tagLine{
+                display: block;
+            }
+        }
+        .navbar{
+            .navbar-nav{
+                width: 70%;
+            }
+            .navbar-form{
+                width: 30%;
+                padding: 8px 5px;
+                text-align: center;
+                .form-group{
+                    .form-control{
+                        width: 80%;
+                    }
+                    .search{
+
+                    }
+                }
+
+            }
+        }
+    }
+    .home{
+        .topBanner{
+            img{
+                height: 540px;
+            }
+            h4{
+                font-size: 45px;
+            }
+        }
+    }
+    .about{
+        p{
+            font-size: 18px;
+        }
+    }
+    .articles{
+        ul li a{
+            font-size: 18px;
+            color: #626262;
+
+        }
+    }
+    .categories{
+
+    }
+    .review{
+
+    }
+    .bannerAd{
+        width: 100%;
+        display: block;
+        text-align: center;
+        img{
+            // width: 100%;
+        }
+    }
+    .contact{
+        hr{
+            width: 80%;
+            display: block;
+            margin: 10px auto;
+            border:1px solid #4285F4;
+        }
+    }
+    .footer1{
+        ul li{
+            border-right: 1px solid #ddd;
+            &:last-child{
+                border-right: 0px solid #ddd;
+            }
+            a{
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 340px) and (min-width: 650px) {
+    .home .topBanner .owl-carousel .owl-item h4{
+        position: absolute;
+        color: #fff;
+        top: 15%;
+        padding: 5px;
+        font-size: 22px;
+        vertical-align: top;
     }
 }
