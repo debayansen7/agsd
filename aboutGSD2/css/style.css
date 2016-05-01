@@ -25,7 +25,7 @@ a { cursor: pointer; }
 .header1 .navbar-inverse .navbar-nav > .active > a { font-size: 18px; background-color: #595959; }
 
 .footer1 { width: 100%; color: #4285F4; }
-.footer1 .footerLinks { background-color: #383636; border: 1px 0px solid #eee; width: 100%; color: #4285F4; height: auto; text-align: center; margin: 0px; }
+.footer1 .footerLinks { background-color: #383636; border: 1px 0px solid #eee; width: 100%; color: #fff; height: auto; text-align: center; margin: 0px; }
 .footer1 .footerLinks ul { display: inline-block; padding: 10px; margin: 0px; width: 100%; }
 .footer1 .footerLinks ul li { display: inline-block; padding: 5px; }
 .footer1 .footerLinks ul li:nth-child(odd) { border-right: 1px solid #ddd; }
@@ -44,7 +44,7 @@ a { cursor: pointer; }
 .home .topBanner p a:hover { text-decoration: none; }
 
 .about { display: block; padding: 10px 15px; font-family: Arial, Helvetica, sans-serif; }
-.about h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); font-weight: 300; text-decoration: underline; color: #626262; margin: 20px 0px; }
+.about h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; color: #626262; margin: 20px 0px; }
 .about h2 { font-family: "Open Sans", sans-serif; font-size: 22px; }
 .about h3 { font-size: 20px; font-family: "Open Sans", sans-serif; font-style: italic; font-weight: bold; }
 .about h4 { font-family: "Open Sans", sans-serif; font-size: 18px; text-align: center; font-style: italic; color: #4285F4; }
@@ -57,14 +57,14 @@ a { cursor: pointer; }
 .about .ads-train img { width: 80%; height: 180px; }
 
 .categories { display: block; }
-.categories h1 { font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 300; margin: 20px 0px; text-align: center; text-decoration: underline; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+.categories h1 { font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 300; margin: 20px 0px; text-align: center; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 .categories .cate-ul { text-align: left; list-style: none; padding-left: 5%; }
 .categories .cate-ul li { padding: 5px; }
 .categories .cate-ul li a { font-size: 20px; color: #4285F4; }
 .categories .cate-ul li a:hover { font-size: 20px; color: #337ab7; }
 
 .articles { display: block; }
-.articles h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); color: #626262; font-weight: 100; text-align: center; text-decoration: underline; margin: 20px 0px; }
+.articles h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); color: #626262; font-weight: 100; text-align: center; margin: 20px 0px; }
 .articles ul { display: block; }
 .articles ul li { margin: 10px 0px; }
 .articles ul li h3 { font-family: "Open Sans", sans-serif; font-size: 18px; font-style: italic; font-weight: 200; }
@@ -77,7 +77,7 @@ a { cursor: pointer; }
 .articles hr { color: #000; border: 1px solid #4285F4; }
 
 .review { display: block; width: 100%; text-align: center; }
-.review h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); color: #626262; text-decoration: underline; }
+.review h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); color: #626262; }
 .review .owl-carousel1 { text-decoration: underline; text-align: center; }
 .review .owl-carousel1 .item { width: 100%; display: inline-block; padding: 25px; border: 1px solid #626262; border-radius: 20px; margin-bottom: 5px; background-color: #fff; }
 .review .owl-carousel1 .item p { width: auto; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
@@ -87,20 +87,20 @@ a { cursor: pointer; }
 .bannerAd { width: 100%; text-align: center; display: none; }
 
 .contact { display: block; text-align: center; padding: 5px; margin-bottom: 10px; }
-.contact h1 { text-decoration: underline; font-family: "Open Sans", sans-serif; font-size: 24px; color: #626262; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); font-weight: bold; text-align: center; }
+.contact h1 { font-family: "Open Sans", sans-serif; font-size: 24px; color: #626262; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: bold; text-align: center; }
 .contact p { font-family: Arial, Helvetica, sans-serif; font-size: 16px; margin: 5px; }
 .contact .email { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #626262; text-decoration: underline; }
 .contact .email:hover { color: #4285F4; }
 .contact hr { border: 1px solid #4285F4; margin-bottom: 10px; }
 .contact .connections { list-style: none; display: inline-block; padding: 5px; margin: 0px; }
 .contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
-.contact .connections li a .fa { border: 2px solid #626262; padding: 10px; border-radius: 50%; width: 50px; color: #626262; font-family: Arial, Helvetica, sans-serif; font-size: 25px; margin: 0px 10px; }
+.contact .connections li a .fa { border: 2px solid #fff; padding: 10px; border-radius: 50%; width: 50px; color: #fff; font-size: 25px; margin: 0px 10px; }
 .contact .connections li a .fa:hover { border: 2px solid #fff; color: #fff; }
-.contact .connections li a .fb:hover { background-color: #3b5998; }
-.contact .connections li a .gp:hover { background-color: #d34836; }
-.contact .connections li a .tw:hover { background-color: #2cb2e4; }
-.contact .connections li a .pt:hover { background-color: #C92228; }
-.contact .connections li a .yt:hover { background-color: #e52d27; }
+.contact .connections li a .fb { background-color: #3b5998; }
+.contact .connections li a .gp { background-color: #d34836; }
+.contact .connections li a .tw { background-color: #2cb2e4; }
+.contact .connections li a .pt { background-color: #C92228; }
+.contact .connections li a .yt { background-color: #e52d27; }
 
 .likebox_area { width: 100%; display: block; margin: 10px 0px; }
 .likebox_area .like-box { margin: 5px auto; text-align: center; }
@@ -108,6 +108,17 @@ a { cursor: pointer; }
 .likebox_area .like-box .fb { background-color: #3b5998; color: #fff; }
 .likebox_area .like-box .tw { background-color: #2cb2e4; color: #fff; }
 .likebox_area .like-box .gp { background-color: #d34836; color: #fff; }
+
+.contentArea h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; color: #626262; margin: 20px 0px; }
+.contentArea h4 { font-family: "Open Sans", sans-serif; font-size: 18px; text-align: left; font-style: italic; color: #4285F4; }
+.contentArea p { font-size: 16px; }
+.contentArea p .heading { font-size: 18px; font-weight: bold; }
+.contentArea p a { color: green; text-decoration: none; font-size: 18px; margin: 10px 0px; }
+.contentArea p a:hover { text-decoration: underline; }
+.contentArea p img { width: 100%; }
+.contentArea a { color: green; text-decoration: none; font-size: 18px; margin: 10px 0px; }
+.contentArea a:hover { text-decoration: underline; }
+.contentArea img { width: 100%; }
 
 @media only screen and (min-width: 1024px) and (min-width: 1200px) { .header1 .banner { text-align: center; }
   .header1 .banner img { width: 15%; }
@@ -126,6 +137,20 @@ a { cursor: pointer; }
   .categories .cate-ul li { padding: 10px; }
   .bannerAd { width: 100%; display: block; text-align: center; margin: 10px; }
   .contact hr { width: 80%; display: block; margin: 10px auto; border: 1px solid #4285F4; }
+  .contact .connections { list-style: none; display: inline-block; padding: 5px; margin: 0px; }
+  .contact .connections li { display: inline-block; text-align: center; margin: 0px 1px; }
+  .contact .connections li a .fa { border: 2px solid #626262; padding: 10px; border-radius: 50%; width: 50px; color: #626262; font-size: 25px; margin: 0px 10px; }
+  .contact .connections li a .fa:hover { border: 2px solid #fff; color: #fff; }
+  .contact .connections li a .fb { background-color: #fff; }
+  .contact .connections li a .fb:hover { background-color: #3b5998; }
+  .contact .connections li a .gp { background-color: #fff; }
+  .contact .connections li a .gp:hover { background-color: #d34836; }
+  .contact .connections li a .tw { background-color: #fff; }
+  .contact .connections li a .tw:hover { background-color: #2cb2e4; }
+  .contact .connections li a .pt { background-color: #fff; }
+  .contact .connections li a .pt:hover { background-color: #C92228; }
+  .contact .connections li a .yt { background-color: #fff; }
+  .contact .connections li a .yt:hover { background-color: #e52d27; }
   .footer1 ul li { border-right: 1px solid #ddd; }
   .footer1 ul li:last-child { border-right: 0px solid #ddd; }
   .footer1 ul li a { font-family: 'Open Sans', sans-serif; }

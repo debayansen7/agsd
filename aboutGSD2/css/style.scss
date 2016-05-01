@@ -20,7 +20,7 @@ $color2:#626262; // grey color
 $color3:#4285F4; // fantastic blue
 $color4:#337ab7; // dark blue
 $readMoreColor: green;
-$txtShadow: 0 1px 2px rgba(0,0,0,.5);
+$txtShadow: 0 1px 1px rgba(0,0,0,.5);
 
 *{
     padding: 0px;
@@ -43,7 +43,7 @@ a{
     width: 98%;
     border: 1px solid #626262;
 }
-//=====================================Header========================================
+///*=============================Header====================================*/
 .header1{
     // border-bottom: 2px solid red;
     box-shadow: 0px 26px 30px -20px #dddddd;
@@ -130,7 +130,7 @@ a{
 
     }
 }
-///*=================================Footer===========================================*/
+///*=============================Footer====================================*/
 .footer1{
     width: 100%;
     color: $color3;
@@ -138,7 +138,7 @@ a{
         background-color: #383636;
         border: 1px 0px solid #eee;
         width: 100%;
-        color: $color3;
+        color: $color1;
         height: auto;
         text-align: center;
         margin: 0px;
@@ -176,7 +176,7 @@ a{
 
     }
 }
-///*---------------------------- Ads --------------------------------*/
+///*---------------------------- Ads --------------------------------------*/
 .ads{
     // border: 1px solid red;
     padding:10px;
@@ -185,7 +185,7 @@ a{
         margin: 5px 0px;
     }
 }
-///*---------------------------- Home --------------------------------*/
+///*---------------------------- Home -------------------------------------*/
 .home{
     display: block;
     width: 100%;
@@ -219,7 +219,7 @@ a{
         }
     }
 }
-///*---------------------------- About --------------------------------*/
+///*---------------------------- About ------------------------------------*/
 .about{
     display: block;
     padding: 10px 15px;
@@ -229,7 +229,7 @@ a{
         font-size: $fontSize1;
         text-shadow: $txtShadow;
         font-weight:300;
-        text-decoration: underline;
+        // text-decoration: underline;
         color:$color2;
         margin: 20px 0px;
     }
@@ -278,7 +278,7 @@ a{
         }
     }
 }
-///*---------------------------- Categories --------------------------------*/
+///*---------------------------- Categories -------------------------------*/
 .categories{
     display:block;
     h1{
@@ -287,7 +287,7 @@ a{
         font-weight: 300;
         margin: 20px 0px;
         text-align: center;
-        text-decoration: underline;
+        // text-decoration: underline;
         text-shadow:$txtShadow;
     }
     .cate-ul{
@@ -307,7 +307,7 @@ a{
         }
     }
 }
-///*---------------------------- Articles --------------------------------*/
+///*---------------------------- Articles ---------------------------------*/
 .articles{
     display:block;
     h1{
@@ -317,7 +317,7 @@ a{
         color:$color2;
         font-weight: 100;
         text-align: center;
-        text-decoration: underline;
+        // text-decoration: underline;
         margin: 20px 0px;
     }
     ul{
@@ -364,8 +364,7 @@ a{
     }
 
 }
-///*---------------------------- Reviews --------------------------------*/
-
+///*---------------------------- Reviews ----------------------------------*/
 .review{
     display:block;
     // background-image: url('../images/cute_gsd.jpg');
@@ -374,7 +373,7 @@ a{
         font-size: $fontSize1;
         text-shadow: $txtShadow;
         color: $color2;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
     width: 100%;
     text-align: center;
@@ -416,7 +415,7 @@ a{
         // width: 100%;
     }
 }
-///*---------------------------- Contact --------------------------------*/
+///*---------------------------- Contact ----------------------------------*/
 .contact{
     display:block;
     text-align: center;
@@ -424,7 +423,7 @@ a{
     padding: 5px;
     margin-bottom: 10px;
     h1{
-        text-decoration: underline;
+        // text-decoration: underline;
         font-family: $basicFontFamily;
         font-size: $fontSize1;
         color: $color2;
@@ -460,42 +459,34 @@ a{
             display: inline-block;
             text-align: center;
             margin: 0px 1px;
-            a .fa{
-                border: 2px solid #626262;
-                padding: 10px;
-                border-radius: 50%;
-                width: 50px;
-                color: #626262;
-                font-family: $contentFontFamily;
-                font-size: 25px;
-                margin: 0px 10px;
-                &:hover{
-                    border: 2px solid $color1;
-                    color: $color1;
+            a{
+                .fa{
+                    border: 2px solid #fff;
+                    padding: 10px;
+                    border-radius: 50%;
+                    width: 50px;
+                    color: #fff;
+                    // font-family: $contentFontFamily;
+                    font-size: 25px;
+                    margin: 0px 10px;
+                    &:hover{
+                        border: 2px solid $color1;
+                        color: $color1;
+                    }
                 }
-            }
-            a .fb{
-                &:hover{
+                .fb{
                     background-color: #3b5998;
                 }
-            }
-            a .gp{
-                &:hover{
+                .gp{
                     background-color: #d34836;
                 }
-            }
-            a .tw{
-                &:hover{
+                .tw{
                     background-color: #2cb2e4;
                 }
-            }
-            a .pt{
-                &:hover{
+                .pt{
                     background-color: #C92228;
                 }
-            }
-            a .yt{
-                &:hover{
+                .yt{
                     background-color: #e52d27;
                 }
             }
@@ -531,7 +522,64 @@ a{
 
     }
 }
-// /* ---------------------------Media Queries -----------------------------*/
+///*---------------------------- List Area --------------------------------*/
+.listArea{
+    
+}
+///*---------------------------- Content Area -----------------------------*/
+.contentArea{
+    h1{
+        font-family: $basicFontFamily;
+        font-size: $fontSize1;
+        text-shadow: $txtShadow;
+        font-weight:300;
+        // text-decoration: underline;
+        color:$color2;
+        margin: 20px 0px;
+    }
+    h4{
+        font-family: $basicFontFamily;
+        font-size: $fontSize4;
+        // text-shadow:$txtShadow;
+        text-align: left;
+        font-style: italic;
+        color:#4285F4;
+    }
+    p{
+        font-size: $fontSize5;
+        .heading{
+            font-size: $fontSize4;
+            font-weight: bold;
+        }
+        a{
+            color:$readMoreColor;
+            text-decoration: none;
+            font-size: 18px;
+            margin:10px 0px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    a{
+        color:$readMoreColor;
+        text-decoration: none;
+        font-size: 18px;
+        margin:10px 0px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    img{
+        width: 100%;
+    }
+}
+
+
+// /* ---------------------------Media Queries ----------------------------*/
 @media only screen and (min-width: 1024px) and (min-width: 1200px) {
     .header1{
         .banner{
@@ -631,6 +679,63 @@ a{
             display: block;
             margin: 10px auto;
             border:1px solid #4285F4;
+        }
+        .connections{
+            list-style: none;
+            display: inline-block;
+            padding:5px;
+            margin: 0px;
+            li{
+                display: inline-block;
+                text-align: center;
+                margin: 0px 1px;
+                a{
+                    .fa{
+                        border: 2px solid #626262;
+                        padding: 10px;
+                        border-radius: 50%;
+                        width: 50px;
+                        color: #626262;
+                        // font-family: $contentFontFamily;
+                        font-size: 25px;
+                        margin: 0px 10px;
+                        &:hover{
+                            border: 2px solid $color1;
+                            color: $color1;
+                        }
+                    }
+                    .fb{
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #3b5998;
+                        }
+                    }
+                    .gp{
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #d34836;
+                        }
+                    }
+                    .tw{
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #2cb2e4;
+                        }
+                    }
+                    .pt{
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #C92228;
+                        }
+                    }
+                    .yt{
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #e52d27;
+                        }
+                    }
+                }
+            }
         }
     }
     .footer1{
