@@ -109,6 +109,21 @@ a { cursor: pointer; }
 .likebox_area .like-box .tw { background-color: #2cb2e4; color: #fff; }
 .likebox_area .like-box .gp { background-color: #d34836; color: #fff; }
 
+.listArea h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; text-align: center; color: #626262; margin: 20px 0px; }
+.listArea .topics h3 { font-family: "Open Sans", sans-serif; font-size: 20px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; text-align: left; color: #626262; margin: 20px 0px; }
+.listArea .topics h4 { font-family: "Open Sans", sans-serif; font-size: 18px; text-align: left; font-style: italic; color: #626262; }
+.listArea .topics p { font-size: 16px; }
+.listArea .topics .readMore { color: green; text-decoration: none; font-size: 18px; margin: 10px 0px; }
+.listArea .topics .readMore:hover { text-decoration: underline; }
+.listArea .pagination { float: right; }
+.listArea .pagination .navBtn { color: #626262; font-size: 18px; display: inline-block; }
+.listArea .pagination ul { display: inline-block; }
+.listArea .pagination ul li { display: inline-block; padding: 0px 10px; border-right: 1px solid #626262; }
+.listArea .pagination ul li:last-child { border-right: 0px solid #626262; }
+.listArea .pagination ul li a { color: #626262; font-size: 20px; }
+.listArea .pagination ul li a .active { color: #4285F4; }
+.listArea .clearfix { clear: both; }
+
 .contentArea h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; color: #626262; margin: 20px 0px; }
 .contentArea h4 { font-family: "Open Sans", sans-serif; font-size: 18px; text-align: left; font-style: italic; color: #4285F4; }
 .contentArea p { font-size: 16px; }

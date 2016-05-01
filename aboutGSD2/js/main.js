@@ -23,15 +23,15 @@ $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     })
 
-    // $('.message').delay(1000, function(){
-    //     $('.message').fadeIn('slow').show();
-    // });
-    //
-    //
-    // $('.closeBtn').off().on('click', function(){
-    //     $('.message').fadeOut( 1000, function() {
-    //
-    //     });
-    //
-    // });
+    $('.message').delay(3000, function(){
+        $('.message').fadeIn('slow').show();
+    });
+
+
+    $('.closeBtn').off().on('click', function(){
+        $('.message').fadeOut( 1000, function() {
+
+        });
+
+    });
 });

@@ -524,7 +524,76 @@ a{
 }
 ///*---------------------------- List Area --------------------------------*/
 .listArea{
-    
+    h1{
+        font-family: $basicFontFamily;
+        font-size: $fontSize1;
+        text-shadow: $txtShadow;
+        font-weight:300;
+        text-align: center;
+        color:$color2;
+        margin: 20px 0px;
+    }
+    .topics{
+        h3{
+            font-family: $basicFontFamily;
+            font-size: $fontSize3;
+            text-shadow: $txtShadow;
+            font-weight:300;
+            text-align: left;
+            color:$color2;
+            margin: 20px 0px;
+        }
+        h4{
+            font-family: $basicFontFamily;
+            font-size: $fontSize4;
+            // text-shadow:$txtShadow;
+            text-align: left;
+            font-style: italic;
+            color:$color2;
+
+        }
+        p{
+            font-size: $fontSize5;
+        }
+        .readMore{
+            color:$readMoreColor;
+            text-decoration: none;
+            font-size: 18px;
+            margin:10px 0px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .pagination{
+        float:right;
+        .navBtn{
+            color: $color2;
+            font-size: $fontSize4;
+            display: inline-block;
+        }
+        ul{
+            display: inline-block;
+            li{
+                display: inline-block;
+                padding: 0px 10px;
+                border-right: 1px solid $color2;
+                &:last-child{
+                    border-right: 0px solid $color2;
+                }
+                a{
+                    color: $color2;
+                    font-size: $fontSize3;
+                    .active{
+                        color: $color3;
+                    }
+                }
+            }
+        }
+    }
+    .clearfix{
+        clear: both;
+    }
 }
 ///*---------------------------- Content Area -----------------------------*/
 .contentArea{
