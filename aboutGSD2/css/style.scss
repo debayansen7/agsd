@@ -143,8 +143,8 @@ a{
         text-align: center;
         margin: 0px;
         ul{
-            display: inline-block;
-            padding: 10px;
+            // display: inline-block;
+            // padding: 10px;
             margin: 0px;
             width: 100%;
             li{
@@ -384,7 +384,7 @@ a{
             width: 100%;
             display: inline-block;
             padding: 25px;
-            border: 1px solid $color2;
+            border: 1px solid $color3;
             border-radius: 20px;
             margin-bottom: 5px;
             background-color:$color1;
@@ -673,9 +673,10 @@ a{
                 margin-bottom: 10px;
             }
             hr{
-                width: 80%;
+                // width: 100%;
                 display: block;
                 margin: 0px auto;
+                border-bottom: 1px;
             }
             .tagLine{
                 // font-size: $fontSize1;
@@ -755,10 +756,10 @@ a{
     }
     .contact{
         hr{
-            width: 80%;
+            width: 100%;
             display: block;
             margin: 10px auto;
-            border:1px solid #4285F4;
+            border-bottom:1px #4285F4;
         }
         .connections{
             list-style: none;
@@ -839,7 +840,10 @@ a{
         padding: 10px;
         top: 50%;
         right: 0%;
+        opacity: 1;
+        z-index: 10000;
         .closeBtn{
+            display: block;
             cursor: pointer;
             text-align: right;
             padding: 0px 10px;
@@ -849,6 +853,7 @@ a{
             color: red;
         }
         .messageArea{
+            display: block;
             border: 1px solid red;
             width: 100%;
             height: 90%;
@@ -868,5 +873,15 @@ a{
         padding: 5px;
         font-size: 22px;
         vertical-align: top;
+    }
+
+    .message{
+        display: none;
+        .messageArea{
+            display: none;
+        }
+        .closeBtn{
+            display: none;
+        }
     }
 }
