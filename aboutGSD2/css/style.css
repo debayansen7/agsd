@@ -60,7 +60,6 @@ a {
           color: #fff; }
     .header1 .navbar .navbar-form {
       display: inline-block;
-      background-color: #4285F4;
       margin: 0px;
       width: 100%; }
       .header1 .navbar .navbar-form .form-group .form-control {
@@ -115,10 +114,10 @@ a {
     color: #fff; }
 
 .ads {
-  padding: 10px; }
+  padding: 0px 10px; }
   .ads img {
     width: 100%;
-    margin: 5px 0px; }
+    margin: 0px 0px; }
 
 .home {
   display: block;
@@ -442,11 +441,12 @@ a {
     font-size: 18px;
     font-weight: bold; }
   .contentArea p a {
-    color: green;
+    color: #4285F4;
     text-decoration: none;
     font-size: 18px;
     margin: 10px 0px; }
     .contentArea p a:hover {
+      color: #337ab7;
       text-decoration: underline; }
   .contentArea p img {
     width: 100%; }
@@ -491,7 +491,7 @@ a {
       width: 80%; }
 
   .home .topBanner img {
-    height: 540px; }
+    height: 505px; }
   .home .topBanner h4 {
     font-size: 45px; }
   .home .topBanner p a {

@@ -102,9 +102,9 @@ a{
         }
         .navbar-form{
             display: inline-block;
-            background-color: #4285F4;
             margin: 0px;
             width: 100%;
+            // background-color: #4285F4;
             // border: 1px solid #101010;
             .form-group{
                 .form-control{
@@ -179,10 +179,10 @@ a{
 ///*---------------------------- Ads --------------------------------------*/
 .ads{
     // border: 1px solid red;
-    padding:10px;
+    padding: 0px 10px;
     img{
         width: 100%;
-        margin: 5px 0px;
+        margin: 0px 0px;
     }
 }
 ///*---------------------------- Home -------------------------------------*/
@@ -621,11 +621,12 @@ a{
             font-weight: bold;
         }
         a{
-            color:$readMoreColor;
+            color:$color3;
             text-decoration: none;
             font-size: 18px;
             margin:10px 0px;
             &:hover{
+                color:$color4;
                 text-decoration: underline;
             }
         }
@@ -646,7 +647,7 @@ a{
         width: 100%;
     }
 }
-// /* ---------------------------Media Queries ----------------------------*/
+// /* ---------------------------Message popup ----------------------------*/
 .message{
     display: none;
     .messageArea{
@@ -704,7 +705,7 @@ a{
     .home{
         .topBanner{
             img{
-                height: 540px;
+                height: 505px;
             }
             h4{
                 font-size: 45px;
