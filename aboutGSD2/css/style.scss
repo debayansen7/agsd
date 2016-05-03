@@ -29,6 +29,9 @@ $txtShadow: 0 1px 1px rgba(0,0,0,.5);
 a{
     cursor: pointer;
 }
+.blueLine{
+        border-top: 1px solid #4295F4;
+}
 .container-fluid{
     padding: 0px;
     margin: 0px;
@@ -863,6 +866,16 @@ a{
 
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
 
+
+    .message{
+        display: none;
+        .messageArea{
+            display: none;
+        }
+        .closeBtn{
+            display: none;
+        }
+    }
 }
 
 @media only screen and (max-width: 340px) and (min-width: 650px) {
@@ -873,15 +886,5 @@ a{
         padding: 5px;
         font-size: 22px;
         vertical-align: top;
-    }
-
-    .message{
-        display: none;
-        .messageArea{
-            display: none;
-        }
-        .closeBtn{
-            display: none;
-        }
     }
 }

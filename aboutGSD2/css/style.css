@@ -2,6 +2,8 @@
 
 a { cursor: pointer; }
 
+.blueLine { border-top: 1px solid #4295F4; }
+
 .container-fluid { padding: 0px; margin: 0px; }
 
 .row { margin: auto; }
@@ -176,9 +178,9 @@ a { cursor: pointer; }
   .message { display: none; width: 500px; height: 300px; position: fixed; border: 1px solid green; background-color: #fff; padding: 10px; top: 50%; right: 0%; opacity: 1; z-index: 10000; }
   .message .closeBtn { display: block; cursor: pointer; text-align: right; padding: 0px 10px; width: 100%; font-weight: bold; border: 1px solid blue; color: red; }
   .message .messageArea { display: block; border: 1px solid red; width: 100%; height: 90%; } }
-@media only screen and (max-width: 340px) and (min-width: 650px) { .home .topBanner .owl-carousel .owl-item h4 { position: absolute; color: #fff; top: 15%; padding: 5px; font-size: 22px; vertical-align: top; }
-  .message { display: none; }
+@media only screen and (max-width: 1023px) and (min-width: 760px) { .message { display: none; }
   .message .messageArea { display: none; }
   .message .closeBtn { display: none; } }
+@media only screen and (max-width: 340px) and (min-width: 650px) { .home .topBanner .owl-carousel .owl-item h4 { position: absolute; color: #fff; top: 15%; padding: 5px; font-size: 22px; vertical-align: top; } }
 
 /*# sourceMappingURL=style.css.map */
