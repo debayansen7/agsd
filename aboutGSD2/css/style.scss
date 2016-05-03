@@ -37,6 +37,7 @@ a{
     margin: 0px;
 }
 .site-wrapper{
+
 }
 .row{
     margin: auto;
@@ -864,8 +865,88 @@ a{
     }
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 760px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .header1{
+        box-shadow: 0px 26px 30px -20px #dddddd;
+        margin-bottom: 10px;
+        .banner{
+            img{
+                width: 25%;
+                margin: 10px;
+            }
+            .bannerText{
+                color: #494444;
+                // font-size: $fontSize1;
+                font-size: 18px;
+                font-family: $specialFontFamily;
+            }
+            hr{
+                border:1px solid #4285F4;
+                display: none;
+                margin: 5px 0px;
+            }
+            .tagLine{
+                padding: 5px;
+                color: #4285F4;
+                font-size: $fontSize4;
+                font-family: $specialFontFamily;
+                font-style: italic;
+                display: none;
+            }
+        }
+        .navbar{
+            margin-bottom: 1px;
+            border-radius: 0px;
+            background-color: #595959;
+            .navbar-nav{
+                text-align: center;
+                width: 100%;
+                margin:0px;
+                li{
+                    // padding: 10px 20px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                    a{
+                        font-size:$nav-fontSize;
+                        font-family: $navFont;
+                        font-weight: 300;
+                        .fa-home{
+                            color: $color1;
+                        }
 
+                    }
+                }
+            }
+            .navbar-form{
+                display: inline-block;
+                margin: 0px;
+                width: 100%;
+                // background-color: #4285F4;
+                // border: 1px solid #101010;
+                .form-group{
+                    .form-control{
+                        width: 84%;
+                        display: inline-block;
+                        float: left;
+                        margin-right: 2px;
+                        font-size:$nav-fontSize;
+                        font-family: $navFont;
+                        font-weight: 300;
+                    }
+                    .search{
+                        // width: 20%;
+                        display: inline-block;
+                        float: right;
+                    }
+                }
+            }
+        }
+        .navbar-inverse .navbar-nav>.active>a{
+            font-size:$navActive-fontSize;
+            background-color: #595959;
+        }
+    }
 
     .message{
         display: none;
