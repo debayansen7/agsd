@@ -493,6 +493,9 @@ a{
                 .yt{
                     background-color: #e52d27;
                 }
+                .wa{
+                    background-color: #50CA5E;
+                }
             }
         }
     }
@@ -817,6 +820,13 @@ a{
                         background-color: #fff;
                         &:hover{
                             background-color: #e52d27;
+                        }
+                    }
+                    .wa{
+                        display: none;
+                        background-color: #fff;
+                        &:hover{
+                        background-color: #50CA5E;
                         }
                     }
                 }

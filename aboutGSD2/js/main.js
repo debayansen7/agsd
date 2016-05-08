@@ -29,4 +29,8 @@ $(document).ready(function(){
     $('.closeBtn').off().on('click', function(){
         $('.message').fadeOut(1000);
     });
+
+    
+
+
 });

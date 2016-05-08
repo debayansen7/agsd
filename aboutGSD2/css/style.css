@@ -103,6 +103,7 @@ a { cursor: pointer; }
 .contact .connections li a .tw { background-color: #2cb2e4; }
 .contact .connections li a .pt { background-color: #C92228; }
 .contact .connections li a .yt { background-color: #e52d27; }
+.contact .connections li a .wa { background-color: #50CA5E; }
 
 .likebox_area { width: 100%; display: block; margin: 10px 0px; }
 .likebox_area .like-box { margin: 5px auto; text-align: center; }
@@ -172,6 +173,8 @@ a { cursor: pointer; }
   .contact .connections li a .pt:hover { background-color: #C92228; }
   .contact .connections li a .yt { background-color: #fff; }
   .contact .connections li a .yt:hover { background-color: #e52d27; }
+  .contact .connections li a .wa { display: none; background-color: #fff; }
+  .contact .connections li a .wa:hover { background-color: #50CA5E; }
   .footer1 ul li { border-right: 1px solid #ddd; }
   .footer1 ul li:last-child { border-right: 0px solid #ddd; }
   .footer1 ul li a { font-family: 'Open Sans', sans-serif; }
