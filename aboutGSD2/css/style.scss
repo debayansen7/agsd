@@ -502,10 +502,12 @@ a{
 }
 ///*---------------------------- Like Area --------------------------------*/
 .likebox_area{
+    display: none;
     width: 100%;
     display:block;
     margin: 10px 0px;
     .like-box{
+        display: none;
         margin:5px auto;
         text-align: center;
         .btn .fa{
@@ -527,6 +529,46 @@ a{
             color: $color1;
         }
 
+    }
+}
+
+.likebox_area1{
+    width: 38%;
+    display:block;
+    margin: 10px 0px;
+    position: fixed;
+    border: 1p solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+    background-color: #fff;
+    top: 60%;
+    left: 0px;
+    .like-box{
+        // margin:5px auto;
+        text-align: left;
+        padding: 0px;
+        .btn .fa{
+            font-weight: bold;
+            color: $color1;
+            width: 20px;
+            text-align: center;
+        }
+        .fb{
+            background-color: #3b5998;
+            color: $color1;
+        }
+        .tw{
+            background-color: #2cb2e4;
+            color: $color1;
+        }
+        .gp{
+            background-color: #d34836;
+            color: $color1;
+        }
+        .twitter-widget-1{
+            width: 100% !important;
+        }
     }
 }
 ///*---------------------------- List Area --------------------------------*/
@@ -832,6 +874,10 @@ a{
                 }
             }
         }
+    }
+    .likebox_area1{
+        width: 10%;
+        top:62%;
     }
     .footer1{
         ul li{

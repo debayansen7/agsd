@@ -25,12 +25,12 @@ $(document).ready(function(){
 
     setTimeout(function(){
         $('.message').fadeIn();
-    }, 10000);
+    }, 2500);
     $('.closeBtn').off().on('click', function(){
         $('.message').fadeOut(1000);
     });
 
-    
+
 
 
 });
