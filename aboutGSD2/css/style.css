@@ -22,7 +22,7 @@ a { cursor: pointer; }
 .header1 .navbar .navbar-nav li a { font-size: 16px; font-family: "Open Sans", sans-serif; font-weight: 300; }
 .header1 .navbar .navbar-nav li a .fa-home { color: #fff; }
 .header1 .navbar .navbar-form { display: inline-block; margin: 0px; width: 100%; }
-.header1 .navbar .navbar-form .form-group .form-control { width: 84%; display: inline-block; float: left; margin-right: 2px; font-size: 16px; font-family: "Open Sans", sans-serif; font-weight: 300; }
+.header1 .navbar .navbar-form .form-group .form-control { width: 83%; display: inline-block; float: left; margin-right: 2px; font-size: 16px; font-family: "Open Sans", sans-serif; font-weight: 300; }
 .header1 .navbar .navbar-form .form-group .search { display: inline-block; float: right; }
 .header1 .navbar-inverse .navbar-nav > .active > a { font-size: 18px; background-color: #595959; }
 
@@ -112,13 +112,16 @@ a { cursor: pointer; }
 .likebox_area .like-box .tw { background-color: #2cb2e4; color: #fff; }
 .likebox_area .like-box .gp { background-color: #d34836; color: #fff; }
 
-.likebox_area1 { width: 38%; display: block; margin: 10px 0px; position: fixed; border: 1p solid; border-radius: 5px; box-shadow: 1px 1px 5px; padding: 10px; background-color: #fff; top: 60%; left: 0px; }
+.likebox_area1 { z-index: 999; width: 38%; display: block; margin: 10px 0px; position: fixed; border: 1p solid; border-radius: 5px; box-shadow: 1px 1px 5px; padding: 10px; background-color: #fff; top: 60%; left: 0px; }
 .likebox_area1 .like-box { text-align: left; padding: 0px; }
 .likebox_area1 .like-box .btn .fa { font-weight: bold; color: #fff; width: 20px; text-align: center; }
 .likebox_area1 .like-box .fb { background-color: #3b5998; color: #fff; }
 .likebox_area1 .like-box .tw { background-color: #2cb2e4; color: #fff; }
 .likebox_area1 .like-box .gp { background-color: #d34836; color: #fff; }
 .likebox_area1 .like-box .twitter-widget-1 { width: 100% !important; }
+.likebox_area1 .like-box .fa-whatsapp { font-size: 13px; }
+.likebox_area1 .like-box .socialWAP { background-color: #028948; color: #fff; padding: 5px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 11px; font-family: Helvetica; }
+.likebox_area1 .like-box .socialWAP:hover { background-color: #16a085; }
 
 .listArea h1 { font-family: "Open Sans", sans-serif; font-size: 24px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; text-align: center; color: #626262; margin: 20px 0px; }
 .listArea .topics h3 { font-family: "Open Sans", sans-serif; font-size: 20px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: 300; text-align: left; color: #626262; margin: 20px 0px; }
@@ -184,6 +187,7 @@ a { cursor: pointer; }
   .contact .connections li a .wa { display: none; background-color: #fff; }
   .contact .connections li a .wa:hover { background-color: #50CA5E; }
   .likebox_area1 { width: 10%; top: 62%; }
+  .likebox_area1 .socialWAP { display: none; }
   .footer1 ul li { border-right: 1px solid #ddd; }
   .footer1 ul li:last-child { border-right: 0px solid #ddd; }
   .footer1 ul li a { font-family: 'Open Sans', sans-serif; }
@@ -204,6 +208,8 @@ a { cursor: pointer; }
   .header1 .navbar .navbar-form .form-group .form-control { width: 84%; display: inline-block; float: left; margin-right: 2px; font-size: 16px; font-family: "Open Sans", sans-serif; font-weight: 300; }
   .header1 .navbar .navbar-form .form-group .search { display: inline-block; float: right; }
   .header1 .navbar-inverse .navbar-nav > .active > a { font-size: 18px; background-color: #595959; }
+  .likebox_area1 { width: 15%; }
+  .likebox_area1 .socialWAP { display: none; }
   .message { display: none; }
   .message .messageArea { display: none; }
   .message .closeBtn { display: none; } }

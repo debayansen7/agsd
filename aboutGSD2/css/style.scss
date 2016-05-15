@@ -112,7 +112,7 @@ a{
             // border: 1px solid #101010;
             .form-group{
                 .form-control{
-                    width: 84%;
+                    width: 83%;
                     display: inline-block;
                     float: left;
                     margin-right: 2px;
@@ -533,6 +533,7 @@ a{
 }
 
 .likebox_area1{
+    z-index: 999;
     width: 38%;
     display:block;
     margin: 10px 0px;
@@ -568,6 +569,22 @@ a{
         }
         .twitter-widget-1{
             width: 100% !important;
+        }
+        .fa-whatsapp{
+            font-size: 13px;
+        }
+        .socialWAP{
+            background-color: #028948;
+            color: #fff;
+            padding: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 11px;
+            font-family: Helvetica;
+            &:hover{
+                background-color: #16a085;
+            }
         }
     }
 }
@@ -878,6 +895,9 @@ a{
     .likebox_area1{
         width: 10%;
         top:62%;
+        .socialWAP{
+            display: none;
+        }
     }
     .footer1{
         ul li{
@@ -1003,7 +1023,12 @@ a{
             background-color: #595959;
         }
     }
-
+    .likebox_area1{
+        width: 15%;
+        .socialWAP{
+            display: none;
+        }
+    }
     .message{
         display: none;
         .messageArea{
