@@ -1,6 +1,8 @@
-/*
-This website was developed by Debayan Sen
-*/
+/*!
+ Copyright of www.aboutgermanshepharddogs.com, 2016
+ Created by Debayan Sen, http://www.debayansen.com
+!*/
+
 // Global font
 $basicFontFamily:'Open Sans', sans-serif; //for headings
 $contentFontFamily: Arial, Helvetica, sans-serif; //for content
@@ -728,7 +730,6 @@ a{
     }
 }
 
-
 // /* ---------------------------Media Queries ----------------------------*/
 @media only screen and (min-width: 1024px) and (min-width: 1200px) {
     .header1{
@@ -1098,19 +1099,32 @@ a{
         .navbar{
             margin-bottom: 1px;
             border-radius: 0px;
+            border: 1px solid #101010;
             background-color: #595959;
+            .container{
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+            }
             .navbar-header {
                 float: none;
+                padding-right: 2%;
+                padding-left: 2%;
             }
             .navbar-toggle {
                 display: block;
             }
             .navbar-collapse {
-                border-top: 1px solid transparent;
+                border:1px solid #101010;
                 box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
             }
             .navbar-collapse.collapse {
-                display: none!important;
+                display: none !important;
+                // padding-left: 0px;
+                // padding-right: 0px;
+            }
+            .navbar-collapse.collapse.in{
+                display: block !important;
             }
             .navbar-nav{
                 float: none!important;
@@ -1138,11 +1152,15 @@ a{
                 }
             }
             .navbar-form{
-                display: inline-block;
+                // display: inline-block;
                 margin: 0px;
+                margin-bottom: 5px;
+                padding: 10px 15px;
                 width: 100%;
+                text-align: center;
                 // background-color: #4285F4;
-                // border: 1px solid #101010;
+                border-top: 1px solid #101010;
+                border-bottom: 1px solid #101010;
                 .form-group{
                     .form-control{
                         width: 60%;
@@ -1248,30 +1266,3 @@ a{
         }
     }
 }
-
-// @media (max-width: 990px) {
-//     .navbar-header {
-//         float: none;
-//     }
-//     .navbar-toggle {
-//         display: block;
-//     }
-//     .navbar-collapse {
-//         border-top: 1px solid transparent;
-//         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-//     }
-//     .navbar-collapse.collapse {
-//         display: none!important;
-//     }
-//     .navbar-nav {
-//         float: none!important;
-//         margin: 7.5px -15px;
-//     }
-//     .navbar-nav>li {
-//         float: none;
-//     }
-//     .navbar-nav>li>a {
-//         padding-top: 10px;
-//         padding-bottom: 10px;
-//     }
-// }
