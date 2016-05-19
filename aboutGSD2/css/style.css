@@ -954,33 +954,94 @@ a {
 
   /* line 1087, style.scss */
   .message {
-    display: none; }
-    /* line 1089, style.scss */
+    display: none;
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    border: 1px solid #595959;
+    background-color: #fff;
+    padding: 5px;
+    top: 50%;
+    right: 0%;
+    opacity: 1;
+    z-index: 10000; }
+    /* line 1099, style.scss */
+    .message .titleArea {
+      display: block;
+      border: 1px solid #595959;
+      width: 100%;
+      background-color: #595959;
+      height: 28px;
+      color: #fff;
+      padding: 5px; }
+      /* line 1107, style.scss */
+      .message .titleArea .messTitle {
+        width: 90%;
+        text-align: left; }
+      /* line 1112, style.scss */
+      .message .titleArea .closeBtn {
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        width: 6%;
+        font-weight: bold;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+    /* line 1126, style.scss */
     .message .messageArea {
-      display: none; }
-    /* line 1092, style.scss */
-    .message .closeBtn {
-      display: none; } }
+      display: block;
+      border: 1px solid #595959;
+      width: 100%;
+      height: 90%;
+      padding: 3px; }
+      /* line 1132, style.scss */
+      .message .messageArea article {
+        border-bottom: 1px solid #595959; }
+        /* line 1134, style.scss */
+        .message .messageArea article:last-child {
+          border-bottom: 0px solid #595959; }
+        /* line 1137, style.scss */
+        .message .messageArea article h3 {
+          font-size: 20px;
+          font-weight: bolder;
+          margin: 0px;
+          margin-top: 5px; }
+        /* line 1143, style.scss */
+        .message .messageArea article h4 {
+          font-size: 18px;
+          font-weight: bolder;
+          font-style: italic;
+          margin: 4px; }
+        /* line 1149, style.scss */
+        .message .messageArea article p {
+          font-size: 16px;
+          font-weight: normal;
+          margin: 0px; }
+        /* line 1154, style.scss */
+        .message .messageArea article a .readmore {
+          font-size: 16px;
+          text-decoration: none; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 1098, style.scss */
+  /* line 1164, style.scss */
   .header1 {
     box-shadow: 0px 26px 30px -20px #dddddd;
     margin-bottom: 10px; }
-    /* line 1102, style.scss */
+    /* line 1168, style.scss */
     .header1 .banner img {
       width: 25%;
       margin: 10px; }
-    /* line 1106, style.scss */
+    /* line 1172, style.scss */
     .header1 .banner .bannerText {
       color: #494444;
       font-size: 18px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
-    /* line 1112, style.scss */
+    /* line 1178, style.scss */
     .header1 .banner hr {
       border: 1px solid #4285F4;
       display: none;
       margin: 5px 0px; }
-    /* line 1117, style.scss */
+    /* line 1183, style.scss */
     .header1 .banner .tagLine {
       padding: 5px;
       color: #4285F4;
@@ -988,59 +1049,59 @@ a {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       font-style: italic;
       display: none; }
-    /* line 1126, style.scss */
+    /* line 1192, style.scss */
     .header1 .navbar {
       margin-bottom: 1px;
       border-radius: 0px;
       border: 1px solid #101010;
       background-color: #595959; }
-      /* line 1131, style.scss */
+      /* line 1197, style.scss */
       .header1 .navbar .container {
         margin: 0px;
         padding: 0px;
         width: 100%; }
-      /* line 1136, style.scss */
+      /* line 1202, style.scss */
       .header1 .navbar .navbar-header {
         float: none;
         padding-right: 2%;
         padding-left: 2%; }
-      /* line 1141, style.scss */
+      /* line 1207, style.scss */
       .header1 .navbar .navbar-toggle {
         display: block; }
-      /* line 1144, style.scss */
+      /* line 1210, style.scss */
       .header1 .navbar .navbar-collapse {
         border: 1px solid #101010;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-      /* line 1148, style.scss */
+      /* line 1214, style.scss */
       .header1 .navbar .navbar-collapse.collapse {
         display: none !important; }
-      /* line 1153, style.scss */
+      /* line 1219, style.scss */
       .header1 .navbar .navbar-collapse.collapse.in {
         display: block !important; }
-      /* line 1156, style.scss */
+      /* line 1222, style.scss */
       .header1 .navbar .navbar-nav {
         float: none !important;
         margin: 7.5px -15px;
         text-align: center;
         width: 100%;
         margin: 0px; }
-        /* line 1162, style.scss */
+        /* line 1228, style.scss */
         .header1 .navbar .navbar-nav li {
           float: none; }
-          /* line 1165, style.scss */
+          /* line 1231, style.scss */
           .header1 .navbar .navbar-nav li:hover {
             text-decoration: underline; }
-          /* line 1168, style.scss */
+          /* line 1234, style.scss */
           .header1 .navbar .navbar-nav li a {
             font-size: 16px;
             font-family: "Open Sans", sans-serif;
             font-weight: 300;
             padding-top: 10px;
             padding-bottom: 10px; }
-            /* line 1174, style.scss */
+            /* line 1240, style.scss */
             .header1 .navbar .navbar-nav li a .fa-home {
               color: #fff; }
-      /* line 1181, style.scss */
+      /* line 1247, style.scss */
       .header1 .navbar .navbar-form {
         margin: 0px;
         margin-bottom: 5px;
@@ -1049,7 +1110,7 @@ a {
         text-align: center;
         border-top: 1px solid #101010;
         border-bottom: 1px solid #101010; }
-        /* line 1192, style.scss */
+        /* line 1258, style.scss */
         .header1 .navbar .navbar-form .form-group .form-control {
           width: 60%;
           display: inline-block;
@@ -1058,54 +1119,115 @@ a {
           font-size: 16px;
           font-family: "Open Sans", sans-serif;
           font-weight: 300; }
-        /* line 1201, style.scss */
+        /* line 1267, style.scss */
         .header1 .navbar .navbar-form .form-group .search {
           width: 30%;
           padding-top: 8px;
           display: inline-block;
           float: right; }
-    /* line 1210, style.scss */
+    /* line 1276, style.scss */
     .header1 .navbar-inverse .navbar-nav > .active > a {
       font-size: 18px;
       background-color: #595959; }
 
-  /* line 1217, style.scss */
+  /* line 1283, style.scss */
   .home .topBanner img {
     height: 305px; }
-  /* line 1220, style.scss */
+  /* line 1286, style.scss */
   .home .topBanner h4 {
     font-size: 25px; }
-  /* line 1223, style.scss */
+  /* line 1289, style.scss */
   .home .topBanner p a {
     top: 56%;
     font-size: 16px; }
 
-  /* line 1230, style.scss */
+  /* line 1296, style.scss */
   .about p {
     font-size: 16px; }
-  /* line 1233, style.scss */
+  /* line 1299, style.scss */
   .about img {
     width: 200px; }
 
-  /* line 1237, style.scss */
+  /* line 1303, style.scss */
   .likebox_area1 {
     top: 45%;
     width: 15%; }
-    /* line 1242, style.scss */
+    /* line 1308, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; }
 
-  /* line 1248, style.scss */
+  /* line 1314, style.scss */
   .message {
-    display: none; }
-    /* line 1250, style.scss */
+    display: none;
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    border: 1px solid #595959;
+    background-color: #fff;
+    padding: 5px;
+    top: 50%;
+    right: 0%;
+    opacity: 1;
+    z-index: 10000; }
+    /* line 1326, style.scss */
+    .message .titleArea {
+      display: block;
+      border: 1px solid #595959;
+      width: 100%;
+      background-color: #595959;
+      height: 28px;
+      color: #fff;
+      padding: 5px; }
+      /* line 1334, style.scss */
+      .message .titleArea .messTitle {
+        width: 90%;
+        text-align: left; }
+      /* line 1339, style.scss */
+      .message .titleArea .closeBtn {
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        width: 6%;
+        font-weight: bold;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+    /* line 1353, style.scss */
     .message .messageArea {
-      display: none; }
-    /* line 1253, style.scss */
-    .message .closeBtn {
-      display: none; } }
+      display: block;
+      border: 1px solid #595959;
+      width: 100%;
+      height: 90%;
+      padding: 3px; }
+      /* line 1359, style.scss */
+      .message .messageArea article {
+        border-bottom: 1px solid #595959; }
+        /* line 1361, style.scss */
+        .message .messageArea article:last-child {
+          border-bottom: 0px solid #595959; }
+        /* line 1364, style.scss */
+        .message .messageArea article h3 {
+          font-size: 20px;
+          font-weight: bolder;
+          margin: 0px;
+          margin-top: 5px; }
+        /* line 1370, style.scss */
+        .message .messageArea article h4 {
+          font-size: 18px;
+          font-weight: bolder;
+          font-style: italic;
+          margin: 4px; }
+        /* line 1376, style.scss */
+        .message .messageArea article p {
+          font-size: 16px;
+          font-weight: normal;
+          margin: 0px; }
+        /* line 1381, style.scss */
+        .message .messageArea article a .readmore {
+          font-size: 16px;
+          text-decoration: none; } }
 @media only screen and (min-width: 340px) and (max-width: 650px) {
-  /* line 1261, style.scss */
+  /* line 1393, style.scss */
   .home .topBanner .owl-carousel .owl-item h4 {
     position: absolute;
     color: #fff;
@@ -1114,14 +1236,14 @@ a {
     font-size: 22px;
     vertical-align: top; }
 
-  /* line 1269, style.scss */
+  /* line 1401, style.scss */
   .likebox_area1 {
     width: 12%; }
-    /* line 1273, style.scss */
+    /* line 1405, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; } }
 @media only screen and (min-width: 340px) and (max-width: 650px) and (orientation: landscape) {
-  /* line 1280, style.scss */
+  /* line 1412, style.scss */
   .home .topBanner .owl-carousel .owl-item h4 {
     position: absolute;
     color: #fff;
@@ -1130,11 +1252,11 @@ a {
     font-size: 22px;
     vertical-align: top; }
 
-  /* line 1288, style.scss */
+  /* line 1420, style.scss */
   .likebox_area1 {
     top: 43%;
     width: 24%; }
-    /* line 1293, style.scss */
+    /* line 1425, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; } }
 
