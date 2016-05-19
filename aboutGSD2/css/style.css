@@ -2,46 +2,58 @@
  Copyright of www.aboutgermanshepharddogs.com, 2016
  Created by Debayan Sen, http://www.debayansen.com
 !*/
+/* line 30, style.scss */
 * {
   padding: 0px;
   margin: 0px; }
 
+/* line 34, style.scss */
 a {
   cursor: pointer; }
 
+/* line 37, style.scss */
 .blueLine {
   border-top: 1px solid #4295F4; }
 
+/* line 40, style.scss */
 .container-fluid {
   padding: 0px;
   margin: 0px; }
 
+/* line 47, style.scss */
 .row {
   margin: auto; }
 
+/* line 50, style.scss */
 .well {
   margin: 10px 1%;
   width: 98%;
   border: 1px solid #626262; }
 
+/* line 56, style.scss */
 .header1 {
   box-shadow: 0px 26px 30px -20px #dddddd;
   margin-bottom: 10px; }
+  /* line 60, style.scss */
   .header1 .banner {
     display: block;
     width: 100%;
     text-align: center; }
+    /* line 64, style.scss */
     .header1 .banner img {
       width: 50%;
       margin: 10px; }
+    /* line 68, style.scss */
     .header1 .banner .bannerText {
       color: #494444;
       font-size: 18px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+    /* line 74, style.scss */
     .header1 .banner hr {
       border: 1px solid #4285F4;
       display: none;
       margin: 5px 0px; }
+    /* line 79, style.scss */
     .header1 .banner .tagLine {
       padding: 5px;
       color: #4285F4;
@@ -49,26 +61,33 @@ a {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       font-style: italic;
       display: none; }
+  /* line 88, style.scss */
   .header1 .navbar {
     margin-bottom: 1px;
     border-radius: 0px;
     background-color: #595959; }
+    /* line 92, style.scss */
     .header1 .navbar .navbar-nav {
       text-align: center;
       width: 100%;
       margin: 0px; }
+      /* line 98, style.scss */
       .header1 .navbar .navbar-nav li:hover {
         text-decoration: underline; }
+      /* line 101, style.scss */
       .header1 .navbar .navbar-nav li a {
         font-size: 16px;
         font-family: "Open Sans", sans-serif;
         font-weight: 300; }
+        /* line 105, style.scss */
         .header1 .navbar .navbar-nav li a .fa-home {
           color: #fff; }
+    /* line 112, style.scss */
     .header1 .navbar .navbar-form {
       display: inline-block;
       margin: 0px;
       width: 100%; }
+      /* line 119, style.scss */
       .header1 .navbar .navbar-form .form-group .form-control {
         width: 83%;
         display: inline-block;
@@ -77,16 +96,20 @@ a {
         font-size: 16px;
         font-family: "Open Sans", sans-serif;
         font-weight: 300; }
+      /* line 128, style.scss */
       .header1 .navbar .navbar-form .form-group .search {
         display: inline-block;
         float: right; }
+  /* line 136, style.scss */
   .header1 .navbar-inverse .navbar-nav > .active > a {
     font-size: 18px;
     background-color: #595959; }
 
+/* line 143, style.scss */
 .footer1 {
   width: 100%;
   color: #4285F4; }
+  /* line 146, style.scss */
   .footer1 .footerLinks {
     background-color: #383636;
     border: 1px 0px solid #eee;
@@ -95,20 +118,26 @@ a {
     height: auto;
     text-align: center;
     margin: 0px; }
+    /* line 154, style.scss */
     .footer1 .footerLinks ul {
       margin: 0px;
       width: 100%; }
+      /* line 159, style.scss */
       .footer1 .footerLinks ul li {
         display: inline-block;
         padding: 5px; }
+        /* line 162, style.scss */
         .footer1 .footerLinks ul li:nth-child(odd) {
           border-right: 1px solid #ddd; }
+        /* line 166, style.scss */
         .footer1 .footerLinks ul li a {
           text-decoration: none;
           font-weight: bold;
           font-size: 15px; }
+          /* line 170, style.scss */
           .footer1 .footerLinks ul li a:hover {
             text-decoration: underline; }
+  /* line 177, style.scss */
   .footer1 .copyRight {
     background-color: #101010;
     height: auto;
@@ -118,41 +147,51 @@ a {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: #fff; }
 
+/* line 189, style.scss */
 .ads {
   padding: 0px 10px; }
+  /* line 192, style.scss */
   .ads img {
     width: 100%;
     margin: 0px 0px; }
 
+/* line 198, style.scss */
 .home {
   display: block;
   width: 100%; }
+  /* line 201, style.scss */
   .home .topBanner {
     color: #fff;
     margin: 0px 0px 10px 0px;
     padding: 0px;
     text-align-last: left; }
+    /* line 206, style.scss */
     .home .topBanner img {
       width: 100%; }
+    /* line 209, style.scss */
     .home .topBanner h4 {
       position: absolute;
       color: #fff;
       top: 35%;
       padding: 5px;
       font-size: 18px; }
+    /* line 217, style.scss */
     .home .topBanner p a {
       position: absolute;
       color: #fff;
       top: 58%;
       padding: 5px;
       font-size: 10px; }
+      /* line 223, style.scss */
       .home .topBanner p a:hover {
         text-decoration: none; }
 
+/* line 232, style.scss */
 .about {
   display: block;
   padding: 10px 15px;
   font-family: Arial, Helvetica, sans-serif; }
+  /* line 236, style.scss */
   .about h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -160,42 +199,54 @@ a {
     font-weight: 300;
     color: #626262;
     margin: 20px 0px; }
+  /* line 245, style.scss */
   .about h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 22px; }
+  /* line 249, style.scss */
   .about h3 {
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-weight: bold; }
+  /* line 255, style.scss */
   .about h4 {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     text-align: center;
     font-style: italic;
     color: #4285F4; }
+  /* line 263, style.scss */
   .about p {
     font-size: 16px; }
+    /* line 265, style.scss */
     .about p .heading {
       font-size: 18px;
       font-weight: bold; }
+  /* line 270, style.scss */
   .about img {
     width: 100%; }
+  /* line 273, style.scss */
   .about .FA {
     margin: 10px 0px; }
+  /* line 276, style.scss */
   .about .MA {
     margin: 10px 0px; }
+  /* line 279, style.scss */
   .about .ads-train {
     width: 100%;
     margin: auto;
     display: inline-block;
     text-align: center; }
+    /* line 284, style.scss */
     .about .ads-train img {
       width: 80%;
       height: 180px; }
 
+/* line 291, style.scss */
 .categories {
   display: block; }
+  /* line 293, style.scss */
   .categories h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -203,21 +254,27 @@ a {
     margin: 20px 0px;
     text-align: center;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+  /* line 302, style.scss */
   .categories .cate-ul {
     text-align: left;
     list-style: none;
     padding-left: 5%; }
+    /* line 306, style.scss */
     .categories .cate-ul li {
       padding: 5px; }
+      /* line 308, style.scss */
       .categories .cate-ul li a {
         font-size: 20px;
         color: #4285F4; }
+        /* line 311, style.scss */
         .categories .cate-ul li a:hover {
           font-size: 20px;
           color: #337ab7; }
 
+/* line 320, style.scss */
 .articles {
   display: block; }
+  /* line 322, style.scss */
   .articles h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -226,49 +283,63 @@ a {
     font-weight: 100;
     text-align: center;
     margin: 20px 0px; }
+  /* line 332, style.scss */
   .articles ul {
     display: block; }
+    /* line 335, style.scss */
     .articles ul li {
       margin: 10px 0px; }
+      /* line 337, style.scss */
       .articles ul li h3 {
         font-family: "Open Sans", sans-serif;
         font-size: 18px;
         font-style: italic;
         font-weight: 200; }
+      /* line 343, style.scss */
       .articles ul li p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px; }
+      /* line 347, style.scss */
       .articles ul li a {
         font-size: 16px;
         text-decoration: none;
         color: #626262; }
+  /* line 355, style.scss */
   .articles .summary {
     font-size: 16px; }
+  /* line 358, style.scss */
   .articles .readMore {
     color: green;
     text-decoration: none;
     font-size: 18px;
     margin: 10px 0px; }
+    /* line 363, style.scss */
     .articles .readMore:hover {
       text-decoration: underline; }
+  /* line 367, style.scss */
   .articles img {
     width: 100%; }
+  /* line 370, style.scss */
   .articles hr {
     color: #000;
     border: 1px solid #4285F4; }
 
+/* line 377, style.scss */
 .review {
   display: block;
   width: 100%;
   text-align: center; }
+  /* line 380, style.scss */
   .review h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     color: #626262; }
+  /* line 389, style.scss */
   .review .owl-carousel1 {
     text-decoration: underline;
     text-align: center; }
+    /* line 392, style.scss */
     .review .owl-carousel1 .item {
       width: 100%;
       display: inline-block;
@@ -277,12 +348,15 @@ a {
       border-radius: 20px;
       margin-bottom: 5px;
       background-color: #fff; }
+      /* line 400, style.scss */
       .review .owl-carousel1 .item p {
         width: auto;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px; }
+        /* line 404, style.scss */
         .review .owl-carousel1 .item p .fa-star {
           color: #FFD700; }
+      /* line 408, style.scss */
       .review .owl-carousel1 .item span {
         display: block;
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -290,16 +364,19 @@ a {
         text-align: right;
         color: red; }
 
+/* line 419, style.scss */
 .bannerAd {
   width: 100%;
   text-align: center;
   display: none; }
 
+/* line 428, style.scss */
 .contact {
   display: block;
   text-align: center;
   padding: 5px;
   margin-bottom: 10px; }
+  /* line 434, style.scss */
   .contact h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -307,29 +384,36 @@ a {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     text-align: center; }
+  /* line 443, style.scss */
   .contact p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 5px; }
+  /* line 448, style.scss */
   .contact .email {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #626262;
     text-decoration: underline; }
+    /* line 453, style.scss */
     .contact .email:hover {
       color: #4285F4; }
+  /* line 457, style.scss */
   .contact hr {
     border: 1px solid #4285F4;
     margin-bottom: 10px; }
+  /* line 462, style.scss */
   .contact .connections {
     list-style: none;
     display: inline-block;
     padding: 5px;
     margin: 0px; }
+    /* line 467, style.scss */
     .contact .connections li {
       display: inline-block;
       text-align: center;
       margin: 0px 1px; }
+      /* line 472, style.scss */
       .contact .connections li a .fa {
         border: 2px solid #fff;
         padding: 10px;
@@ -338,46 +422,30 @@ a {
         color: #fff;
         font-size: 25px;
         margin: 0px 10px; }
+        /* line 481, style.scss */
         .contact .connections li a .fa:hover {
           border: 2px solid #fff;
           color: #fff; }
+      /* line 486, style.scss */
       .contact .connections li a .fb {
         background-color: #3b5998; }
+      /* line 489, style.scss */
       .contact .connections li a .gp {
         background-color: #d34836; }
+      /* line 492, style.scss */
       .contact .connections li a .tw {
         background-color: #2cb2e4; }
+      /* line 495, style.scss */
       .contact .connections li a .pt {
         background-color: #C92228; }
+      /* line 498, style.scss */
       .contact .connections li a .yt {
         background-color: #e52d27; }
+      /* line 501, style.scss */
       .contact .connections li a .wa {
         background-color: #50CA5E; }
 
-.likebox_area {
-  display: none;
-  width: 100%;
-  display: block;
-  margin: 10px 0px; }
-  .likebox_area .like-box {
-    display: none;
-    margin: 5px auto;
-    text-align: center; }
-    .likebox_area .like-box .btn .fa {
-      font-weight: bold;
-      color: #fff;
-      width: 20px;
-      text-align: center; }
-    .likebox_area .like-box .fb {
-      background-color: #3b5998;
-      color: #fff; }
-    .likebox_area .like-box .tw {
-      background-color: #2cb2e4;
-      color: #fff; }
-    .likebox_area .like-box .gp {
-      background-color: #d34836;
-      color: #fff; }
-
+/* line 509, style.scss */
 .likebox_area1 {
   z-index: 999;
   width: 38%;
@@ -391,27 +459,35 @@ a {
   background-color: #fff;
   top: 60%;
   left: 0px; }
+  /* line 522, style.scss */
   .likebox_area1 .like-box {
     text-align: left;
     padding: 0px; }
+    /* line 526, style.scss */
     .likebox_area1 .like-box .btn .fa {
       font-weight: bold;
       color: #fff;
       width: 20px;
       text-align: center; }
+    /* line 532, style.scss */
     .likebox_area1 .like-box .fb {
       background-color: #3b5998;
       color: #fff; }
+    /* line 536, style.scss */
     .likebox_area1 .like-box .tw {
       background-color: #2cb2e4;
       color: #fff; }
+    /* line 540, style.scss */
     .likebox_area1 .like-box .gp {
       background-color: #d34836;
       color: #fff; }
+    /* line 544, style.scss */
     .likebox_area1 .like-box .twitter-widget-1 {
       width: 100% !important; }
+    /* line 547, style.scss */
     .likebox_area1 .like-box .fa-whatsapp {
       font-size: 13px; }
+    /* line 550, style.scss */
     .likebox_area1 .like-box .socialWAP {
       background-color: #028948;
       color: #fff;
@@ -422,9 +498,11 @@ a {
       font-size: 11px;
       font-family: Helvetica;
       width: 75%; }
+      /* line 560, style.scss */
       .likebox_area1 .like-box .socialWAP:hover {
         background-color: #16a085; }
 
+/* line 568, style.scss */
 .listArea h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -433,6 +511,7 @@ a {
   text-align: center;
   color: #626262;
   margin: 20px 0px; }
+/* line 578, style.scss */
 .listArea .topics h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -441,43 +520,56 @@ a {
   text-align: left;
   color: #626262;
   margin: 20px 0px; }
+/* line 587, style.scss */
 .listArea .topics h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: left;
   font-style: italic;
   color: #626262; }
+/* line 596, style.scss */
 .listArea .topics p {
   font-size: 16px; }
+/* line 599, style.scss */
 .listArea .topics .readMore {
   color: green;
   text-decoration: none;
   font-size: 18px;
   margin: 10px 0px; }
+  /* line 604, style.scss */
   .listArea .topics .readMore:hover {
     text-decoration: underline; }
+/* line 609, style.scss */
 .listArea .pagination {
   float: right; }
+  /* line 611, style.scss */
   .listArea .pagination .navBtn {
     color: #626262;
     font-size: 18px;
     display: inline-block; }
+  /* line 616, style.scss */
   .listArea .pagination ul {
     display: inline-block; }
+    /* line 618, style.scss */
     .listArea .pagination ul li {
       display: inline-block;
       padding: 0px 10px;
       border-right: 1px solid #626262; }
+      /* line 622, style.scss */
       .listArea .pagination ul li:last-child {
         border-right: 0px solid #626262; }
+      /* line 625, style.scss */
       .listArea .pagination ul li a {
         color: #626262;
         font-size: 20px; }
+        /* line 628, style.scss */
         .listArea .pagination ul li a .active {
           color: #4285F4; }
+/* line 635, style.scss */
 .listArea .clearfix {
   clear: both; }
 
+/* line 641, style.scss */
 .contentArea h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -485,113 +577,146 @@ a {
   font-weight: 300;
   color: #626262;
   margin: 20px 0px; }
+/* line 650, style.scss */
 .contentArea h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: left;
   font-style: italic;
   color: #4285F4; }
+/* line 658, style.scss */
 .contentArea p {
   font-size: 16px; }
+  /* line 660, style.scss */
   .contentArea p .heading {
     font-size: 18px;
     font-weight: bold; }
+  /* line 664, style.scss */
   .contentArea p a {
     color: #4285F4;
     text-decoration: none;
     font-size: 18px;
     margin: 10px 0px; }
+    /* line 669, style.scss */
     .contentArea p a:hover {
       color: #337ab7;
       text-decoration: underline; }
+  /* line 674, style.scss */
   .contentArea p img {
     width: 100%; }
+/* line 678, style.scss */
 .contentArea a {
   color: green;
   text-decoration: none;
   font-size: 18px;
   margin: 10px 0px; }
+  /* line 683, style.scss */
   .contentArea a:hover {
     text-decoration: underline; }
+/* line 687, style.scss */
 .contentArea img {
   width: 100%; }
 
+/* line 692, style.scss */
 .message {
   display: none; }
+  /* line 694, style.scss */
   .message .messageArea {
     float: none;
     display: none; }
+  /* line 699, style.scss */
   .message .titleArea .messTitle {
     float: left; }
+  /* line 702, style.scss */
   .message .titleArea .closeBtn {
     float: right;
     display: none; }
 
-@media only screen and (min-width: 1024px) and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
+  /* line 714, style.scss */
   .header1 .banner {
     text-align: center; }
+    /* line 716, style.scss */
     .header1 .banner img {
       width: 15%; }
+    /* line 719, style.scss */
     .header1 .banner .bannerText {
       font-size: 30px;
       margin-bottom: 10px; }
+    /* line 724, style.scss */
     .header1 .banner hr {
       display: block;
       margin: 0px auto;
       border-bottom: 1px; }
+    /* line 730, style.scss */
     .header1 .banner .tagLine {
       display: block; }
+  /* line 736, style.scss */
   .header1 .navbar .navbar-nav {
     width: 70%; }
+  /* line 739, style.scss */
   .header1 .navbar .navbar-form {
     width: 30%;
     padding: 8px 5px;
     text-align: center; }
+    /* line 744, style.scss */
     .header1 .navbar .navbar-form .form-group .form-control {
       width: 80%; }
 
+  /* line 757, style.scss */
   .home .topBanner img {
     height: 505px; }
+  /* line 760, style.scss */
   .home .topBanner h4 {
     font-size: 45px; }
+  /* line 763, style.scss */
   .home .topBanner p a {
     top: 56%;
     font-size: 16px; }
 
+  /* line 770, style.scss */
   .about p {
     font-size: 16px; }
 
+  /* line 775, style.scss */
   .articles ul li a {
     font-size: 18px;
     color: #626262; }
 
+  /* line 782, style.scss */
   .categories .cate-ul {
     text-align: left;
     list-style: none;
     padding-left: 5%; }
+    /* line 786, style.scss */
     .categories .cate-ul li {
       padding: 10px; }
 
+  /* line 793, style.scss */
   .bannerAd {
     width: 100%;
     display: block;
     text-align: center;
     margin: 10px; }
 
+  /* line 803, style.scss */
   .contact hr {
     width: 100%;
     display: block;
     margin: 10px auto;
     border-bottom: 1px #4285F4; }
+  /* line 809, style.scss */
   .contact .connections {
     list-style: none;
     display: inline-block;
     padding: 5px;
     margin: 0px; }
+    /* line 814, style.scss */
     .contact .connections li {
       display: inline-block;
       text-align: center;
       margin: 0px 1px; }
+      /* line 819, style.scss */
       .contact .connections li a .fa {
         border: 2px solid #626262;
         padding: 10px;
@@ -600,48 +725,67 @@ a {
         color: #626262;
         font-size: 25px;
         margin: 0px 10px; }
+        /* line 828, style.scss */
         .contact .connections li a .fa:hover {
           border: 2px solid #fff;
           color: #fff; }
+      /* line 833, style.scss */
       .contact .connections li a .fb {
         background-color: #fff; }
+        /* line 835, style.scss */
         .contact .connections li a .fb:hover {
           background-color: #3b5998; }
+      /* line 839, style.scss */
       .contact .connections li a .gp {
         background-color: #fff; }
+        /* line 841, style.scss */
         .contact .connections li a .gp:hover {
           background-color: #d34836; }
+      /* line 845, style.scss */
       .contact .connections li a .tw {
         background-color: #fff; }
+        /* line 847, style.scss */
         .contact .connections li a .tw:hover {
           background-color: #2cb2e4; }
+      /* line 851, style.scss */
       .contact .connections li a .pt {
         background-color: #fff; }
+        /* line 853, style.scss */
         .contact .connections li a .pt:hover {
           background-color: #C92228; }
+      /* line 857, style.scss */
       .contact .connections li a .yt {
         background-color: #fff; }
+        /* line 859, style.scss */
         .contact .connections li a .yt:hover {
           background-color: #e52d27; }
+      /* line 863, style.scss */
       .contact .connections li a .wa {
         display: none;
         background-color: #fff; }
+        /* line 866, style.scss */
         .contact .connections li a .wa:hover {
           background-color: #50CA5E; }
 
+  /* line 874, style.scss */
   .likebox_area1 {
     width: 10%;
     top: 62%; }
+    /* line 877, style.scss */
     .likebox_area1 .socialWAP {
       display: none; }
 
+  /* line 882, style.scss */
   .footer1 ul li {
     border-right: 1px solid #ddd; }
+    /* line 884, style.scss */
     .footer1 ul li:last-child {
       border-right: 0px solid #ddd; }
+    /* line 887, style.scss */
     .footer1 ul li a {
       font-family: 'Open Sans', sans-serif; }
 
+  /* line 892, style.scss */
   .message {
     display: none;
     width: 500px;
@@ -654,6 +798,7 @@ a {
     right: 0%;
     opacity: 1;
     z-index: 10000; }
+    /* line 904, style.scss */
     .message .titleArea {
       display: block;
       border: 1px solid #595959;
@@ -662,9 +807,11 @@ a {
       height: 28px;
       color: #fff;
       padding: 5px; }
+      /* line 912, style.scss */
       .message .titleArea .messTitle {
         width: 90%;
         text-align: left; }
+      /* line 917, style.scss */
       .message .titleArea .closeBtn {
         display: block;
         cursor: pointer;
@@ -674,48 +821,60 @@ a {
         color: #fff;
         border: 1px solid #fff;
         border-radius: 50%; }
+    /* line 931, style.scss */
     .message .messageArea {
       display: block;
       border: 1px solid #595959;
       width: 100%;
       height: 90%;
       padding: 3px; }
+      /* line 937, style.scss */
       .message .messageArea article {
         border-bottom: 1px solid #595959; }
+        /* line 939, style.scss */
         .message .messageArea article:last-child {
           border-bottom: 0px solid #595959; }
+        /* line 942, style.scss */
         .message .messageArea article h3 {
           font-size: 20px;
           font-weight: bolder;
           margin: 0px;
           margin-top: 5px; }
+        /* line 948, style.scss */
         .message .messageArea article h4 {
           font-size: 18px;
           font-weight: bolder;
           font-style: italic;
           margin: 4px; }
+        /* line 954, style.scss */
         .message .messageArea article p {
           font-size: 16px;
           font-weight: normal;
           margin: 0px; }
+        /* line 959, style.scss */
         .message .messageArea article a .readmore {
           font-size: 16px;
           text-decoration: none; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* line 971, style.scss */
   .header1 {
     box-shadow: 0px 26px 30px -20px #dddddd;
     margin-bottom: 10px; }
+    /* line 975, style.scss */
     .header1 .banner img {
       width: 25%;
       margin: 10px; }
+    /* line 979, style.scss */
     .header1 .banner .bannerText {
       color: #494444;
       font-size: 18px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+    /* line 985, style.scss */
     .header1 .banner hr {
       border: 1px solid #4285F4;
       display: none;
       margin: 5px 0px; }
+    /* line 990, style.scss */
     .header1 .banner .tagLine {
       padding: 5px;
       color: #4285F4;
@@ -723,27 +882,36 @@ a {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       font-style: italic;
       display: none; }
+    /* line 999, style.scss */
     .header1 .navbar {
       margin-bottom: 1px;
       border-radius: 0px;
       background-color: #595959; }
+      /* line 1003, style.scss */
       .header1 .navbar .navbar-nav {
         text-align: center;
         width: 65%;
         margin: 0px; }
+        /* line 1009, style.scss */
         .header1 .navbar .navbar-nav li:hover {
           text-decoration: underline; }
+        /* line 1012, style.scss */
         .header1 .navbar .navbar-nav li a {
           font-size: 16px;
           font-family: "Open Sans", sans-serif;
-          font-weight: 300; }
+          font-weight: 300;
+          padding-left: 5px;
+          padding-right: 5px; }
+          /* line 1018, style.scss */
           .header1 .navbar .navbar-nav li a .fa-home {
             color: #fff; }
+      /* line 1025, style.scss */
       .header1 .navbar .navbar-form {
         display: inline-block;
         margin: 0px;
         width: 33%;
         padding-top: 8px; }
+        /* line 1033, style.scss */
         .header1 .navbar .navbar-form .form-group .form-control {
           width: 83%;
           display: inline-block;
@@ -752,51 +920,67 @@ a {
           font-size: 16px;
           font-family: "Open Sans", sans-serif;
           font-weight: 300; }
+        /* line 1042, style.scss */
         .header1 .navbar .navbar-form .form-group .search {
           padding-top: 8px;
           display: inline-block;
           float: right; }
+    /* line 1051, style.scss */
     .header1 .navbar-inverse .navbar-nav > .active > a {
       font-size: 18px;
       background-color: #595959; }
 
+  /* line 1058, style.scss */
   .home .topBanner img {
     height: 409px; }
+  /* line 1061, style.scss */
   .home .topBanner h4 {
     font-size: 36px; }
+  /* line 1064, style.scss */
   .home .topBanner p a {
     top: 56%;
     font-size: 16px; }
 
+  /* line 1071, style.scss */
   .about p {
     font-size: 16px; }
 
+  /* line 1078, style.scss */
   .likebox_area1 {
     width: 12%; }
+    /* line 1082, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; }
 
+  /* line 1087, style.scss */
   .message {
     display: none; }
+    /* line 1089, style.scss */
     .message .messageArea {
       display: none; }
+    /* line 1092, style.scss */
     .message .closeBtn {
       display: none; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* line 1098, style.scss */
   .header1 {
     box-shadow: 0px 26px 30px -20px #dddddd;
     margin-bottom: 10px; }
+    /* line 1102, style.scss */
     .header1 .banner img {
       width: 25%;
       margin: 10px; }
+    /* line 1106, style.scss */
     .header1 .banner .bannerText {
       color: #494444;
       font-size: 18px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+    /* line 1112, style.scss */
     .header1 .banner hr {
       border: 1px solid #4285F4;
       display: none;
       margin: 5px 0px; }
+    /* line 1117, style.scss */
     .header1 .banner .tagLine {
       padding: 5px;
       color: #4285F4;
@@ -804,46 +988,59 @@ a {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       font-style: italic;
       display: none; }
+    /* line 1126, style.scss */
     .header1 .navbar {
       margin-bottom: 1px;
       border-radius: 0px;
       border: 1px solid #101010;
       background-color: #595959; }
+      /* line 1131, style.scss */
       .header1 .navbar .container {
         margin: 0px;
         padding: 0px;
         width: 100%; }
+      /* line 1136, style.scss */
       .header1 .navbar .navbar-header {
         float: none;
         padding-right: 2%;
         padding-left: 2%; }
+      /* line 1141, style.scss */
       .header1 .navbar .navbar-toggle {
         display: block; }
+      /* line 1144, style.scss */
       .header1 .navbar .navbar-collapse {
         border: 1px solid #101010;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+      /* line 1148, style.scss */
       .header1 .navbar .navbar-collapse.collapse {
         display: none !important; }
+      /* line 1153, style.scss */
       .header1 .navbar .navbar-collapse.collapse.in {
         display: block !important; }
+      /* line 1156, style.scss */
       .header1 .navbar .navbar-nav {
         float: none !important;
         margin: 7.5px -15px;
         text-align: center;
         width: 100%;
         margin: 0px; }
+        /* line 1162, style.scss */
         .header1 .navbar .navbar-nav li {
           float: none; }
+          /* line 1165, style.scss */
           .header1 .navbar .navbar-nav li:hover {
             text-decoration: underline; }
+          /* line 1168, style.scss */
           .header1 .navbar .navbar-nav li a {
             font-size: 16px;
             font-family: "Open Sans", sans-serif;
             font-weight: 300;
             padding-top: 10px;
             padding-bottom: 10px; }
+            /* line 1174, style.scss */
             .header1 .navbar .navbar-nav li a .fa-home {
               color: #fff; }
+      /* line 1181, style.scss */
       .header1 .navbar .navbar-form {
         margin: 0px;
         margin-bottom: 5px;
@@ -852,6 +1049,7 @@ a {
         text-align: center;
         border-top: 1px solid #101010;
         border-bottom: 1px solid #101010; }
+        /* line 1192, style.scss */
         .header1 .navbar .navbar-form .form-group .form-control {
           width: 60%;
           display: inline-block;
@@ -860,40 +1058,54 @@ a {
           font-size: 16px;
           font-family: "Open Sans", sans-serif;
           font-weight: 300; }
+        /* line 1201, style.scss */
         .header1 .navbar .navbar-form .form-group .search {
           width: 30%;
           padding-top: 8px;
           display: inline-block;
           float: right; }
+    /* line 1210, style.scss */
     .header1 .navbar-inverse .navbar-nav > .active > a {
       font-size: 18px;
       background-color: #595959; }
 
+  /* line 1217, style.scss */
   .home .topBanner img {
     height: 305px; }
+  /* line 1220, style.scss */
   .home .topBanner h4 {
     font-size: 25px; }
+  /* line 1223, style.scss */
   .home .topBanner p a {
     top: 56%;
     font-size: 16px; }
 
+  /* line 1230, style.scss */
   .about p {
     font-size: 16px; }
+  /* line 1233, style.scss */
   .about img {
     width: 200px; }
 
+  /* line 1237, style.scss */
   .likebox_area1 {
+    top: 45%;
     width: 15%; }
+    /* line 1242, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; }
 
+  /* line 1248, style.scss */
   .message {
     display: none; }
+    /* line 1250, style.scss */
     .message .messageArea {
       display: none; }
+    /* line 1253, style.scss */
     .message .closeBtn {
       display: none; } }
-@media only screen and (max-width: 340px) and (min-width: 650px) {
+@media only screen and (min-width: 340px) and (max-width: 650px) {
+  /* line 1261, style.scss */
   .home .topBanner .owl-carousel .owl-item h4 {
     position: absolute;
     color: #fff;
@@ -902,11 +1114,14 @@ a {
     font-size: 22px;
     vertical-align: top; }
 
+  /* line 1269, style.scss */
   .likebox_area1 {
     width: 12%; }
+    /* line 1273, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; } }
 @media only screen and (min-width: 340px) and (max-width: 650px) and (orientation: landscape) {
+  /* line 1280, style.scss */
   .home .topBanner .owl-carousel .owl-item h4 {
     position: absolute;
     color: #fff;
@@ -915,8 +1130,11 @@ a {
     font-size: 22px;
     vertical-align: top; }
 
+  /* line 1288, style.scss */
   .likebox_area1 {
-    width: 12%; }
+    top: 43%;
+    width: 24%; }
+    /* line 1293, style.scss */
     .likebox_area1 .like-box .socialWAP {
       display: block; } }
 
