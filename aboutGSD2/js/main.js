@@ -26,20 +26,39 @@ $(document).ready(function(){
     });
 /*============================================================================*/
 
-
 /*==================================For Tooltips==============================*/
     $(function () {
       $('[data-toggle="tooltip"]').tooltip();
     })
 /*============================================================================*/
 
-/*==================================facebook-jssdk============================*/
+/*============================facebook-message box============================*/
     setTimeout(function(){
         $('.message').fadeIn(4000);
     }, 7000);
     $('.closeBtn').off().on('click', function(){
         $('.message').fadeOut(1000);
     });
+/*============================================================================*/
+
+/*===========================facebook-share button============================*/
+    // $('.shareArea').off().on('click', function(){
+    //     console.log("Share Area Open");
+    //     $('.offlayer').css('display','block');
+    //     $('.likebox_area1').css('display','block');
+    //     $('.shareArea').hide();
+    //
+    // });
+    //
+    // $('.likebox_area1 > .closeBtn').off().on('click', function(){
+    //     console.log("Share Area Open");
+    //     $('.offlayer').css('display','block');
+    //     $('.likebox_area1').css('display','block');
+    //     $('.likebox_area1 > .closeBtn').css('display','block');
+    //
+    //     $('.shareArea').hide();
+    //
+    // });
 /*============================================================================*/
 
 
