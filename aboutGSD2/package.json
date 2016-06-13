@@ -1,0 +1,33 @@
+{
+  "name": "agsd",
+  "version": "0.0.0",
+  "description": "AboutGermanShepardDogs.com",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debayansen7/agsd.git"
+  },
+  "author": "debayansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debayansen7/agsd/issues"
+  },
+  "homepage": "https://github.com/debayansen7/agsd#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.6"
+  }
+}
