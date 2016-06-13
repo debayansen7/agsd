@@ -942,12 +942,14 @@ a{
                 display: block;
                 cursor: pointer;
                 text-align: center;
-                // padding: 0px 10px;
-                width: 6%;
+                width: 4%;
                 font-weight: bold;
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 50%;
+                padding-top: 2px;
+                line-height: 15px;
+                // padding: 0px 10px;
                 // float: right;
             }
 
