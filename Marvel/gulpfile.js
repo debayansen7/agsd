@@ -4,8 +4,8 @@ var gulp    = require('gulp'),
     uglify  = require('gulp-uglify'),
     sass    = require('gulp-sass'),
     jade    = require('gulp-jade'),
-    autoprefixer = require('gulp-autoprefixer'),
     rename  = require('gulp-rename'),
+    autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync').create(),
     watch   = require('gulp-watch')
 ;
